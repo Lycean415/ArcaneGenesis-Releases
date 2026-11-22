@@ -1,0 +1,18 @@
+{
+  "archiveBytes": 862545,
+  "archiveSha256": "252c4b360c5efafdb616b6caccdca4c609f8b10cdff332c20e9d34c5a8bf5591",
+  "entries": 29,
+  "audit": {
+    "status": "PASS",
+    "version": "0.3.1-visuals.1",
+    "packFiles": 396,
+    "newObjects": 23,
+    "externalDownloadsUnchanged": 127,
+    "containsWorlds": false,
+    "containsCredentials": false,
+    "containsPrivateKeys": false,
+    "containsPlayerCaches": false,
+    "containsTestMods": false,
+    "containsSourceArchive": false
+  }
+}
