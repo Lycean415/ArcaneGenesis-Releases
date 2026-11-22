@@ -1,0 +1,16 @@
+{
+  "externalPublicUpstreamFiles": 127,
+  "worlds": 0,
+  "testMods": 0,
+  "status": "PASS",
+  "sourceSha256": "3a021205319f6daee127bb37fe4093b1ae0a17bb3d612d68cf4d44b0d76ff2b1",
+  "hardwareFingerprints": 0,
+  "privateKeys": 0,
+  "bundledProjectFiles": 269,
+  "failures": [],
+  "scope": "Launcher source, project JARs, authored quests/datapacks/themes, sanitized configuration defaults. No player worlds, histories, caches, hardware fingerprints, credentials or private signing keys.",
+  "sourceEntries": 302,
+  "personalPaths": 0,
+  "packFiles": 396,
+  "playerSkinPreferences": 0
+}

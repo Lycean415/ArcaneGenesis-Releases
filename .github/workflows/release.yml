@@ -1,0 +1,67 @@
+name: Build and publish launcher 0.3.0
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - releases/ArcaneGenesis-Launcher-Source-0.3.0.zip
+      - .github/workflows/release.yml
+permissions:
+  contents: write
+concurrency:
+  group: release-030
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Expand audited project source
+        run: |
+          Expand-Archive releases/ArcaneGenesis-Launcher-Source-0.3.0.zip .build/launcher
+          & ./.build/launcher/bootstrap.ps1
+          if ($LASTEXITCODE -ne 0) { throw 'Bootstrap failed' }
+      - name: Run updater and integrity tests
+        run: |
+          $root = Join-Path $pwd '.build/launcher'
+          & "$root/tools/dotnet10/dotnet.exe" "$root/src/Arcane.Tools/bin/Release/net10.0-windows/Arcane.Tools.dll" tests "$env:RUNNER_TEMP/launcher-tests"
+          if ($LASTEXITCODE -ne 0) { throw 'Tests failed' }
+      - name: Build self-contained Windows installer
+        run: |
+          & ./.build/launcher/build.ps1 -Output (Join-Path $pwd 'artifacts') -SkipChannelSigning
+          if ($LASTEXITCODE -ne 0) { throw 'Installer build failed' }
+      - name: Publish signed pack and project objects
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $repo = '${{ github.repository }}'
+          $tag = 'pack-0.3.0-preview.1'
+          gh release view $tag --repo $repo *> $null
+          if ($LASTEXITCODE -ne 0) {
+            gh release create $tag --repo $repo --target '${{ github.sha }}' --title 'Arcane Genesis modpack 0.3.0 preview' --notes 'Signed update manifest and Arcane Genesis project files. Third-party mods and Minecraft are downloaded from official upstream sources.' --prerelease
+            if ($LASTEXITCODE -ne 0) { throw 'Pack release failed' }
+          }
+          $files = @(Get-ChildItem .build/launcher/distribution/release/objects -File | ForEach-Object { $_.FullName })
+          $files += @((Resolve-Path .build/launcher/distribution/channel/pack.json).Path, (Resolve-Path .build/launcher/distribution/channel/pack.json.sig).Path, (Resolve-Path .build/launcher/release-public.pem).Path)
+          for ($i=0; $i -lt $files.Count; $i+=8) {
+            $batch = $files[$i..([Math]::Min($i+7,$files.Count-1))]
+            gh release upload $tag @batch --repo $repo --clobber
+            if ($LASTEXITCODE -ne 0) { throw 'Pack asset upload failed' }
+          }
+      - name: Publish launcher and source
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $repo = '${{ github.repository }}'
+          $tag = 'launcher-0.3.0'
+          gh release view $tag --repo $repo *> $null
+          if ($LASTEXITCODE -ne 0) {
+            gh release create $tag --repo $repo --target '${{ github.sha }}' --title 'Arcane Genesis Launcher 0.3.0' --notes 'Direct launch, official Java/Minecraft/NeoForge downloads, signed bundled pack and independent update channels. Clean game-directory installation tested; separate physical Windows-PC testing remains pending.'
+            if ($LASTEXITCODE -ne 0) { throw 'Launcher release failed' }
+          }
+          gh release upload $tag artifacts/ArcaneGenesis-Setup-0.3.0.exe artifacts/ArcaneGenesis-Setup-0.3.0.exe.sha256 releases/ArcaneGenesis-Launcher-Source-0.3.0.zip --repo $repo --clobber
+          if ($LASTEXITCODE -ne 0) { throw 'Launcher upload failed' }
