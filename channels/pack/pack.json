@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.3.1-visuals.1",
+  "version": "0.3.2-armor.1",
   "minecraft": "1.21.1",
   "neoForge": "21.1.265",
-  "news": "Новый облик палочек, брони и устройств. Исправлены иконки предметных заданий и русский перевод Simply Swords. Прогресс, рецепты и характеристики сохранены.",
+  "news": "Объёмная лёгкая броня Следопыта: капюшон, наплечники, разгрузка, колчан со стрелами, наколенники и сапоги. Пять комплектов. Характеристики и рецепты сохранены.",
   "files": [
     {
       "path": "config/MouseTweaks.cfg",
@@ -2078,10 +2078,10 @@
       "source": "Arcane Genesis project"
     },
     {
-      "path": "global_packs/required_resources/ArcaneGenesis_Astral_Codex_1.2.zip",
-      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.1-visuals.1/8d1cdf02a8f84f77e1a8b9cf8c505efeee45e59be16de87b3263ec1b62e5240f",
-      "sha256": "8d1cdf02a8f84f77e1a8b9cf8c505efeee45e59be16de87b3263ec1b62e5240f",
-      "size": 76840,
+      "path": "global_packs/required_resources/ArcaneGenesis_Astral_Codex_1.3.zip",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.2-armor.1/12189d3a487569bb019d4b6ddffafcb42522ecf6a28bfb2d828d33ad69d9f9ee",
+      "sha256": "12189d3a487569bb019d4b6ddffafcb42522ecf6a28bfb2d828d33ad69d9f9ee",
+      "size": 84554,
       "policy": "managed",
       "source": "Arcane Genesis project"
     },
@@ -2526,10 +2526,10 @@
       "source": "Arcane Genesis project"
     },
     {
-      "path": "mods/brpg-combat-5.2.0-dev.1.jar",
-      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.1-visuals.1/5093b51518a216bbe25d97be975571f96f51bd07fb5947e0e60b5b91650ac2b4",
-      "sha256": "5093b51518a216bbe25d97be975571f96f51bd07fb5947e0e60b5b91650ac2b4",
-      "size": 328467,
+      "path": "mods/brpg-combat-5.3.0-dev.1.jar",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.2-armor.1/1a419f8083c8241bf9c66a8433a6f251d5fc552c0b510b4b1c6cecafea0e60d8",
+      "sha256": "1a419f8083c8241bf9c66a8433a6f251d5fc552c0b510b4b1c6cecafea0e60d8",
+      "size": 342638,
       "policy": "managed",
       "source": "Arcane Genesis project"
     },
