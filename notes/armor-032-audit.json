@@ -1,0 +1,18 @@
+{
+  "archiveBytes": 654470,
+  "archiveSha256": "18f42890b89eca65397a9a2febd8a3c1af5d33fe59774fa1b2fcc802e5c0ac09",
+  "entries": 8,
+  "audit": {
+    "status": "PASS",
+    "version": "0.3.2-armor.1",
+    "packFiles": 396,
+    "newObjects": 2,
+    "externalDownloadsUnchanged": 127,
+    "containsWorlds": false,
+    "containsCredentials": false,
+    "containsPrivateKeys": false,
+    "containsPlayerCaches": false,
+    "containsTestMods": false,
+    "containsSourceArchive": false
+  }
+}
