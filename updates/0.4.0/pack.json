@@ -1,0 +1,3081 @@
+{
+  "schema": 1,
+  "version": "0.3.4",
+  "minecraft": "1.21.1",
+  "neoForge": "21.1.265",
+  "news": "Arcane Genesis: четыре класса и 12 специализаций. Обновлены конфигурации, оформление и оптимизация. Баланс предварительный.",
+  "files": [
+    {
+      "path": "config/advancementplaques.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/fccc5bab6156c4c38bcdebf4b21c22488536da5631ba8d8d94e41fd5baaa7cad",
+      "sha256": "fccc5bab6156c4c38bcdebf4b21c22488536da5631ba8d8d94e41fd5baaa7cad",
+      "size": 3284,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/almanac/almanac.json5",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/74f858bad679e77d95b71631286b01564f116c65da8b2e1ab889099f03cae0d7",
+      "sha256": "74f858bad679e77d95b71631286b01564f116c65da8b2e1ab889099f03cae0d7",
+      "size": 1499,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ambientsounds-client.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/c98f572839ace55b0792042fa4b984311e7d876abdaccfc8a4694f5bebad766c",
+      "sha256": "c98f572839ace55b0792042fa4b984311e7d876abdaccfc8a4694f5bebad766c",
+      "size": 4198,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/apotheosis/apotheosis.cfg",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/0d567c27b10feb3945d329fc6ff0bf4f3eaeace7456aa814b7912063b2281e42",
+      "sha256": "0d567c27b10feb3945d329fc6ff0bf4f3eaeace7456aa814b7912063b2281e42",
+      "size": 4494,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/apotheosis/apothic_attributes.cfg",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/336a1dcfde783fb49e7f5ae3f5905179e2e7800c0cd41cee8fc6bd210edb2e06",
+      "sha256": "336a1dcfde783fb49e7f5ae3f5905179e2e7800c0cd41cee8fc6bd210edb2e06",
+      "size": 5285,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/apotheosis/apothic_enchanting.cfg",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/2150a9e5f1bf77a33843d3a9d290efad799e7aaf338b1f6d0bedfae190864aa8",
+      "sha256": "2150a9e5f1bf77a33843d3a9d290efad799e7aaf338b1f6d0bedfae190864aa8",
+      "size": 718,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/apotheosis/enchantments.cfg",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/429a7ee2be2414e8c51fe5c26ef38888fd2692b130e2619377236f3c6af648f8",
+      "sha256": "429a7ee2be2414e8c51fe5c26ef38888fd2692b130e2619377236f3c6af648f8",
+      "size": 67727,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/apotheosis/name_generation.cfg",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1017fb0dc611a02f6d34b8126a136178f8368f607adb1f70be93e411a999e61d",
+      "sha256": "1017fb0dc611a02f6d34b8126a136178f8368f607adb1f70be93e411a999e61d",
+      "size": 80962,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/apothic_spawners.cfg",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/eda93df8c30acf8d7e14f4f2baf583f77ec37fcc05d8acc85988ffd465d5038c",
+      "sha256": "eda93df8c30acf8d7e14f4f2baf583f77ec37fcc05d8acc85988ffd465d5038c",
+      "size": 1145,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/appleskin-client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/7127a276c7305371397053cd8d0833e6825c828850626e4067b9fed1430ed217",
+      "sha256": "7127a276c7305371397053cd8d0833e6825c828850626e4067b9fed1430ed217",
+      "size": 1376,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/arcane-genesis-ranger.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/e2e378dafb8982ca4cc6f2873b14eda6def787189a49e74474d0fbc7c7e3c569",
+      "sha256": "e2e378dafb8982ca4cc6f2873b14eda6def787189a49e74474d0fbc7c7e3c569",
+      "size": 18951,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/arcane-performance.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/7b0012bb7e7b6d7e0136c4dcf6fca474c07b42747d0ed16a03ae4c9de0ce44ec",
+      "sha256": "7b0012bb7e7b6d7e0136c4dcf6fca474c07b42747d0ed16a03ae4c9de0ce44ec",
+      "size": 387,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/artifacts/client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/fcc980a4e12e76dc42a3bc27db9fe237f628c63e2544048802b239a2a989c44c",
+      "sha256": "fcc980a4e12e76dc42a3bc27db9fe237f628c63e2544048802b239a2a989c44c",
+      "size": 1013,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/artifacts/general.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/b73793e634d1a441c12ed1c3d02ec074b2f19a24766512f78ff0b9d83cf9768b",
+      "sha256": "b73793e634d1a441c12ed1c3d02ec074b2f19a24766512f78ff0b9d83cf9768b",
+      "size": 2326,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/artifacts/items.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/85218a5af8b311d663c58a6c9b69c98eebd92fb8d1b8aaffab4118aa22519cdf",
+      "sha256": "85218a5af8b311d663c58a6c9b69c98eebd92fb8d1b8aaffab4118aa22519cdf",
+      "size": 20343,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/async.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/318a13f77c7a8d5bd932f4cbd83c9f5fc93b57baadbe434774e3deacf43e7cb0",
+      "sha256": "318a13f77c7a8d5bd932f4cbd83c9f5fc93b57baadbe434774e3deacf43e7cb0",
+      "size": 588,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/asyncparticles/asyncparticles-mixin.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3defd2540c6bc795f9379cd0e1eb03cb18645aacf2f596cff33079b8e5c1683d",
+      "sha256": "3defd2540c6bc795f9379cd0e1eb03cb18645aacf2f596cff33079b8e5c1683d",
+      "size": 2226,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/asyncparticles/asyncparticles.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/f68efef2427314d3d1828c5ca5a46a3abe3b0ec7463e0cf5e817e2f35fa3f66c",
+      "sha256": "f68efef2427314d3d1828c5ca5a46a3abe3b0ec7463e0cf5e817e2f35fa3f66c",
+      "size": 1283,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/azurelib.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/9f136b36f13fb0f7d0de277ecf6d933914c7dcc3f646136cd09a68e904659109",
+      "sha256": "9f136b36f13fb0f7d0de277ecf6d933914c7dcc3f646136cd09a68e904659109",
+      "size": 509,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/badoptimizations.txt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9",
+      "sha256": "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9",
+      "size": 3458,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/bettercaves/neoforge-1_21_1/liquidregions.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/ad0e43cd1d8fff16d76ff6036699bd67598ff8bc18220b7e8e951245c92cf139",
+      "sha256": "ad0e43cd1d8fff16d76ff6036699bd67598ff8bc18220b7e8e951245c92cf139",
+      "size": 168,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/bettercaves/neoforge-1_21_1/README.txt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1dc29f3ad9f62887f2667aeaed28c3fd3a2520055382ecb3636e3cb9ea563baa",
+      "sha256": "1dc29f3ad9f62887f2667aeaed28c3fd3a2520055382ecb3636e3cb9ea563baa",
+      "size": 743,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/bettercombat/client.json5",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/2d853633deff976b16e7e973c168134886fe8c06ec5108a077d835db97b5ff18",
+      "sha256": "2d853633deff976b16e7e973c168134886fe8c06ec5108a077d835db97b5ff18",
+      "size": 721,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/bettercombat/fallback_compatibility.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/754feb4474a3f4d9fe6bd08f38c248fd5a796ed51f38d7d5704680250f3a34ca",
+      "sha256": "754feb4474a3f4d9fe6bd08f38c248fd5a796ed51f38d7d5704680250f3a34ca",
+      "size": 2995,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/bettercombat/server.json5",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3f50d34e55861d3ca4d9557bf21c154d297abe01f37d11c6a84d70a2255b5e83",
+      "sha256": "3f50d34e55861d3ca4d9557bf21c154d297abe01f37d11c6a84d70a2255b5e83",
+      "size": 6207,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/bettercombat/weapon_trails.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/fd14cc025b6d6c54bc2ddff136f0298c0ba132dbe98c2c9c845b47b8286fc45c",
+      "sha256": "fd14cc025b6d6c54bc2ddff136f0298c0ba132dbe98c2c9c845b47b8286fc45c",
+      "size": 7127,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterdeserttemples/neoforge-1_21/armorstands.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/2d002b17f48e7c38542168b6f8b81fe52d3230b248792109620918f79ec0a090",
+      "sha256": "2d002b17f48e7c38542168b6f8b81fe52d3230b248792109620918f79ec0a090",
+      "size": 1344,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterdeserttemples/neoforge-1_21/itemframes.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/84722708bc8d4fcaed2078670358d5a6a5cfcdd144a2764cc29c1ae13e703091",
+      "sha256": "84722708bc8d4fcaed2078670358d5a6a5cfcdd144a2764cc29c1ae13e703091",
+      "size": 824,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterdeserttemples/neoforge-1_21/README.txt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/80ba474fdd1912739a1dc3326de6539ccfceb9d5c97f540131b567e295a7b112",
+      "sha256": "80ba474fdd1912739a1dc3326de6539ccfceb9d5c97f540131b567e295a7b112",
+      "size": 1683,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterdeserttemples-neoforge-1_21.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/c7355a13f2f7c4eeb3332ab67a2315e0662c7e5b434dc33d4624fccb9e815240",
+      "sha256": "c7355a13f2f7c4eeb3332ab67a2315e0662c7e5b434dc33d4624fccb9e815240",
+      "size": 578,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterdungeons-neoforge-1_21.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/b03069c030f940550b4436d2f7c3dab582efa2fcc32b221ac30dbcb0617eab7f",
+      "sha256": "b03069c030f940550b4436d2f7c3dab582efa2fcc32b221ac30dbcb0617eab7f",
+      "size": 3486,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterendisland-neoforge-1_21.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/ffe069fd52a22a7967f4d012382dca670f585635cb721c2190f0595969b662af",
+      "sha256": "ffe069fd52a22a7967f4d012382dca670f585635cb721c2190f0595969b662af",
+      "size": 943,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterfortresses/neoforge-1_21/itemframes.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/a2c8f32801bee036167847489f963652873b08baaf1d765d12f44d0957deef39",
+      "sha256": "a2c8f32801bee036167847489f963652873b08baaf1d765d12f44d0957deef39",
+      "size": 1161,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterfortresses/neoforge-1_21/README.txt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1175dbf9cd2e7c91b1c852a51e3c0203c68484917e877465b283e2370ad62864",
+      "sha256": "1175dbf9cd2e7c91b1c852a51e3c0203c68484917e877465b283e2370ad62864",
+      "size": 1339,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterfortresses-neoforge-1_21.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/0bef433c8253f63704694528c33dc854f2b28da084d420a61c43fd62d6e5301b",
+      "sha256": "0bef433c8253f63704694528c33dc854f2b28da084d420a61c43fd62d6e5301b",
+      "size": 425,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterjungletemples-neoforge-1_21.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/77ef014bd34c9f66bf40b3e6ae7a67bf7ec2a618b76eafff9f0921577d3ab1b9",
+      "sha256": "77ef014bd34c9f66bf40b3e6ae7a67bf7ec2a618b76eafff9f0921577d3ab1b9",
+      "size": 86,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/bettermineshafts-neoforge-1_21.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/37ee9275b9680c2d07d395cf41769c456c9b93adbf85ddf6514ee601977fa099",
+      "sha256": "37ee9275b9680c2d07d395cf41769c456c9b93adbf85ddf6514ee601977fa099",
+      "size": 4151,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betteroceanmonuments-neoforge-1_21.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/6c09d2a75810e76c719b355c3480d1dc14b135f944f4a85d2118a395efc916c5",
+      "sha256": "6c09d2a75810e76c719b355c3480d1dc14b135f944f4a85d2118a395efc916c5",
+      "size": 419,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterstrongholds/neoforge-1_21/armorstands.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/c96ba0c18dcd9c2f07680e7f7cee846c230206ff1b589c1db2a54fd1bb670f4c",
+      "sha256": "c96ba0c18dcd9c2f07680e7f7cee846c230206ff1b589c1db2a54fd1bb670f4c",
+      "size": 1391,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterstrongholds/neoforge-1_21/itemframes.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/d6aa59a17e79b3fc8be8d59c52c9ef75a45110dcb3e9ea154479b81c9e73dd1a",
+      "sha256": "d6aa59a17e79b3fc8be8d59c52c9ef75a45110dcb3e9ea154479b81c9e73dd1a",
+      "size": 920,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterstrongholds/neoforge-1_21/ores.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/c45ad43a7dcf496921cc2bd3f239aaf9d407412684645245fe6122c00c4a855b",
+      "sha256": "c45ad43a7dcf496921cc2bd3f239aaf9d407412684645245fe6122c00c4a855b",
+      "size": 346,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterstrongholds/neoforge-1_21/rareblocks.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/893a63c2ab5e63ad9a69cc792870989d35dc7952300d627519a0cb5d33abbdd9",
+      "sha256": "893a63c2ab5e63ad9a69cc792870989d35dc7952300d627519a0cb5d33abbdd9",
+      "size": 238,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterstrongholds/neoforge-1_21/README.txt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/5aad271e60a03218eb5207dd78df8d1d36c676f212bf823701e33646010d2f19",
+      "sha256": "5aad271e60a03218eb5207dd78df8d1d36c676f212bf823701e33646010d2f19",
+      "size": 2830,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterstrongholds-neoforge-1_21.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3f2ae4edfb2c45137f14dc6a1a4f02958735b9831c0762d19d9e57fe4ff72346",
+      "sha256": "3f2ae4edfb2c45137f14dc6a1a4f02958735b9831c0762d19d9e57fe4ff72346",
+      "size": 621,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/betterwitchhuts-neoforge-1_21.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/0fa4f192f54dc1fc4f7ac7ab8be7cba88e324fe21571777cb8a6d404f6ce49a9",
+      "sha256": "0fa4f192f54dc1fc4f7ac7ab8be7cba88e324fe21571777cb8a6d404f6ce49a9",
+      "size": 404,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/block_factorys_bosses-client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1ff86fe2d701ae9ee1cd775c077b9f6edb6184144c3505ffc6312f3d71e9658c",
+      "sha256": "1ff86fe2d701ae9ee1cd775c077b9f6edb6184144c3505ffc6312f3d71e9658c",
+      "size": 2637,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/block_factorys_bosses-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/2e6624ed2974729727702aa11e9064c2b72a12e3e65488e09e2f44191354b403",
+      "sha256": "2e6624ed2974729727702aa11e9064c2b72a12e3e65488e09e2f44191354b403",
+      "size": 843,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/creativecore-client.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac",
+      "sha256": "acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac",
+      "size": 23,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/creativecore.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/5f08d0878d7f89c6b4c947a49dce368d7738255d44fecf9aad59ec6ae8a4fcef",
+      "sha256": "5f08d0878d7f89c6b4c947a49dce368d7738255d44fecf9aad59ec6ae8a4fcef",
+      "size": 274,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ctov-common.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/5522794f06ef3247060718a3613633be42b2fd8db056ed6c94845530dc136530",
+      "sha256": "5522794f06ef3247060718a3613633be42b2fd8db056ed6c94845530dc136530",
+      "size": 1303,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/cupboard.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3799cdf6f6fd5898c8eb5a24352234e71469061a751d1e41786d9edfd8614bf3",
+      "sha256": "3799cdf6f6fd5898c8eb5a24352234e71469061a751d1e41786d9edfd8614bf3",
+      "size": 1365,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/curios-client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/8af475d222d452c40b548db89c8956f3e4d1e2aaf729464e3065f029936b3e0d",
+      "sha256": "8af475d222d452c40b548db89c8956f3e4d1e2aaf729464e3065f029936b3e0d",
+      "size": 766,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/curios-common.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/9f00a6b9904cf63a36c0c72f8346642962d538aaa78b59943b9de60dda82e6d0",
+      "sha256": "9f00a6b9904cf63a36c0c72f8346642962d538aaa78b59943b9de60dda82e6d0",
+      "size": 159,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/curios-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add",
+      "sha256": "1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add",
+      "size": 483,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/divinerpg/client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/5891cc4b0c6a412aef951e9c014714ceb1e6cf030c07574166712155d8c46196",
+      "sha256": "5891cc4b0c6a412aef951e9c014714ceb1e6cf030c07574166712155d8c46196",
+      "size": 370,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/divinerpg/common.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/18aecd2d782e7aca4da2a67b66b8de0f5de2f877797550d874dcf0c3015a04a4",
+      "sha256": "18aecd2d782e7aca4da2a67b66b8de0f5de2f877797550d874dcf0c3015a04a4",
+      "size": 375,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/dungeonconfig/dungeonconfig.json5",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/5df33a55d688eb2dea2e918cd698ccbbd84fc9993bb9f74849bac5482e7c1595",
+      "sha256": "5df33a55d688eb2dea2e918cd698ccbbd84fc9993bb9f74849bac5482e7c1595",
+      "size": 1007,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/durabilitytooltip-common.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/7d38121136311ab3482d5696267255194c30d1afdae991c872e81aefaf1e41a1",
+      "sha256": "7d38121136311ab3482d5696267255194c30d1afdae991c872e81aefaf1e41a1",
+      "size": 1875,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/dynamic_fps.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "size": 3,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/embeddium-mixins.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/708750dc530ed52462185c7b1421291db8b292a350e164daaad437ba6f4fe4ef",
+      "sha256": "708750dc530ed52462185c7b1421291db8b292a350e164daaad437ba6f4fe4ef",
+      "size": 268,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/embeddium-options.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/850bb9a5c0610e670762b9f1fe4e2c83cd05ebb921b2d644dd62b563ec29b2e4",
+      "sha256": "850bb9a5c0610e670762b9f1fe4e2c83cd05ebb921b2d644dd62b563ec29b2e4",
+      "size": 846,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/enchdesc.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b",
+      "sha256": "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b",
+      "size": 2059,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/entity_model_features.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/4d13dfd4a71e0f9b0e6f673233856185f10bc2465916d7e43ace4e3621334067",
+      "sha256": "4d13dfd4a71e0f9b0e6f673233856185f10bc2465916d7e43ace4e3621334067",
+      "size": 1258,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/entity_texture_features.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/bd66edf9d1a72cd717bbe9b17b41ffd16963b089493e5ddae3d3ad69153105ba",
+      "sha256": "bd66edf9d1a72cd717bbe9b17b41ffd16963b089493e5ddae3d3ad69153105ba",
+      "size": 1452,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/entityculling.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe",
+      "sha256": "4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe",
+      "size": 2248,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/explosiveenhancement.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/59a8f784524a4d3e7d972c9979e314a94df9e9a3fde8ed6aded6c951cea18d65",
+      "sha256": "59a8f784524a4d3e7d972c9979e314a94df9e9a3fde8ed6aded6c951cea18d65",
+      "size": 2308,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/fallingtree.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/9704d03d869a866e68c5e783025c8720df6d35e3e76c56080e08e9bf6473a341",
+      "sha256": "9704d03d869a866e68c5e783025c8720df6d35e3e76c56080e08e9bf6473a341",
+      "size": 1313,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ferritecore-mixin.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1356f9d52b2dcb2afa5a593e53c286d9c1c3778a6f8b1cf761953b185b7dce78",
+      "sha256": "1356f9d52b2dcb2afa5a593e53c286d9c1c3778a6f8b1cf761953b185b7dce78",
+      "size": 1603,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/fml.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/8ba2510b804c1d4b0f1a71139731997b3b063ee7e5c4cb21dbc9c29222cbbe3b",
+      "sha256": "8ba2510b804c1d4b0f1a71139731997b3b063ee7e5c4cb21dbc9c29222cbbe3b",
+      "size": 1550,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftblibrary-client.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/4a98161835ae188156dbc1f1015287c0c17aa91db082a083ba6a505de99923f1",
+      "sha256": "4a98161835ae188156dbc1f1015287c0c17aa91db082a083ba6a505de99923f1",
+      "size": 1651,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapter_groups.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/99b4f9dce6763ead3f1440b6e08adbad14ff802b1c972793e773f2da2dcf2a35",
+      "sha256": "99b4f9dce6763ead3f1440b6e08adbad14ff802b1c972793e773f2da2dcf2a35",
+      "size": 1442,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/00_covenant.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/8ac77b73c68d1f757dbd5d1d517eb95d117361bf9bb790d208580e95c19110f2",
+      "sha256": "8ac77b73c68d1f757dbd5d1d517eb95d117361bf9bb790d208580e95c19110f2",
+      "size": 10875,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/apoth_affixes.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/0ff218ea56193147279fc84a5a0bb7603b3379a4a37328e7977814370c81f261",
+      "sha256": "0ff218ea56193147279fc84a5a0bb7603b3379a4a37328e7977814370c81f261",
+      "size": 12926,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/apoth_gems.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/5542793d549abf0de4eac46856d70baf373fff9644628c748a1ab4f83537f352",
+      "sha256": "5542793d549abf0de4eac46856d70baf373fff9644628c748a1ab4f83537f352",
+      "size": 15825,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/apoth_workshop.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/174d058385b208e8f43dd6bb9c2ae98b26142c7ceb9c84a42c17d8941ed3e3e4",
+      "sha256": "174d058385b208e8f43dd6bb9c2ae98b26142c7ceb9c84a42c17d8941ed3e3e4",
+      "size": 5139,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/brpg_mana_wands.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/a28a833e7ed316304c97909c00031dd4e3f6f284d5938bd50550658eaac40ef9",
+      "sha256": "a28a833e7ed316304c97909c00031dd4e3f6f284d5938bd50550658eaac40ef9",
+      "size": 6444,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/classes_specializations.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/5f6f6b9ddc3a8c9658471fe72d01a17e29a8a25134adf6b23ecf83308f3f8463",
+      "sha256": "5f6f6b9ddc3a8c9658471fe72d01a17e29a8a25134adf6b23ecf83308f3f8463",
+      "size": 19765,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/divine_apalachia.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/df67ed39b92bc892688199060b36311cefd8e3dc0be5954b7b8e5a89fa45e6bb",
+      "sha256": "df67ed39b92bc892688199060b36311cefd8e3dc0be5954b7b8e5a89fa45e6bb",
+      "size": 12433,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/divine_arcana.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/d409a69de8af17d2e43ba28bb66415b453e88132d677b5ba044d7f4a69ccf7a0",
+      "sha256": "d409a69de8af17d2e43ba28bb66415b453e88132d677b5ba044d7f4a69ccf7a0",
+      "size": 12462,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/divine_eden.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/b7e603b72851f90bf7ea1452d5bd72e7266dbfefa2076a48e4b920d757decc52",
+      "sha256": "b7e603b72851f90bf7ea1452d5bd72e7266dbfefa2076a48e4b920d757decc52",
+      "size": 12273,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/divine_iceika.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/56c9f6b2821c5d73d9760236d30115f4da0d68bb449125a8537131116caaf7df",
+      "sha256": "56c9f6b2821c5d73d9760236d30115f4da0d68bb449125a8537131116caaf7df",
+      "size": 11109,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/divine_mortum.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/5da1bd8e4f5b1a999ec7addc8c3fce096b4c116a6da9da5306115fd2fad4d821",
+      "sha256": "5da1bd8e4f5b1a999ec7addc8c3fce096b4c116a6da9da5306115fd2fad4d821",
+      "size": 12974,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/divine_skythern.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/31504b141b6cc8392b836b74bb7da6a4a314ec060cb38c7834d56637621ab772",
+      "sha256": "31504b141b6cc8392b836b74bb7da6a4a314ec060cb38c7834d56637621ab772",
+      "size": 12417,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/divine_vethea.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/539faca7e6e27d81f1c6b7ce5eb22ce41c74760d9fc119e84849ee04a71e84c5",
+      "sha256": "539faca7e6e27d81f1c6b7ce5eb22ce41c74760d9fc119e84849ee04a71e84c5",
+      "size": 22701,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/divine_wildwood.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1ae8f5af332957f234288a9d29f44b67c1eb00c22d08e466b7120ac90c1d8f7b",
+      "sha256": "1ae8f5af332957f234288a9d29f44b67c1eb00c22d08e466b7120ac90c1d8f7b",
+      "size": 12199,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/epilogue.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/62316848253a7f30f52a9d00bc1728be790d3d15f0c2dc7f089e67bb92bc22ae",
+      "sha256": "62316848253a7f30f52a9d00bc1728be790d3d15f0c2dc7f089e67bb92bc22ae",
+      "size": 1701,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/hybrid.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3f7883dfaffe9f3ff0f33d74670902edec5238af20a0f7df94648ad3011256d8",
+      "sha256": "3f7883dfaffe9f3ff0f33d74670902edec5238af20a0f7df94648ad3011256d8",
+      "size": 5569,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/ranger.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/034f0d9d32782873dc0b09f096ae8a2cb97f90453901b9a4bca39ebe104e4eb1",
+      "sha256": "034f0d9d32782873dc0b09f096ae8a2cb97f90453901b9a4bca39ebe104e4eb1",
+      "size": 15814,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_alchemy.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/5598adae929b9f7ff4f080685b62853cc9ccd356f77bbdf5cf785a648877a94e",
+      "sha256": "5598adae929b9f7ff4f080685b62853cc9ccd356f77bbdf5cf785a648877a94e",
+      "size": 11009,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_alchemy_1.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/76345e4d2251a83294136e31c7d7964b3300de610b7a0bcfd7266655b0d32ca2",
+      "sha256": "76345e4d2251a83294136e31c7d7964b3300de610b7a0bcfd7266655b0d32ca2",
+      "size": 10953,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_alchemy_2.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/f3bfab3655a73d139def4ba86ec6a3e031aa7c21c651f2414e03ed672fb632d7",
+      "sha256": "f3bfab3655a73d139def4ba86ec6a3e031aa7c21c651f2414e03ed672fb632d7",
+      "size": 7723,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_alchemy_3.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/a99dc8c2727186cc7260aa98fd9ed6b201b95f4e4b2cebefe5e986466ec1d278",
+      "sha256": "a99dc8c2727186cc7260aa98fd9ed6b201b95f4e4b2cebefe5e986466ec1d278",
+      "size": 11865,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_alchemy_4.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/20ca631b76d45909a7e02d8a02a527734ee4124b454307bff9cee38ba7e79466",
+      "sha256": "20ca631b76d45909a7e02d8a02a527734ee4124b454307bff9cee38ba7e79466",
+      "size": 10982,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_artifice.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/dfd76a8976b29936bc2ceeaa90cc77b66cab6beb091419e972504f5701cde5aa",
+      "sha256": "dfd76a8976b29936bc2ceeaa90cc77b66cab6beb091419e972504f5701cde5aa",
+      "size": 12236,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_artifice_1.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/8def0fdf82b0995604265309287f02e669e89625cf6efc3f29a3971dc013734d",
+      "sha256": "8def0fdf82b0995604265309287f02e669e89625cf6efc3f29a3971dc013734d",
+      "size": 4434,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_artifice_2.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/f225579a2def098ecf8c101e0ed7e951d94458eb4506cab1505572b956b7ce1c",
+      "sha256": "f225579a2def098ecf8c101e0ed7e951d94458eb4506cab1505572b956b7ce1c",
+      "size": 9644,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_artifice_3.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3d2cd99e022493c70c4f3b46dadb5d196b98200b2c91da3ed02c453ea9b136a3",
+      "sha256": "3d2cd99e022493c70c4f3b46dadb5d196b98200b2c91da3ed02c453ea9b136a3",
+      "size": 9860,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_artifice_4.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/92dcf4460456060990164f4fc203bf3efa9db3e7cb3030a63e6b798f938dbaf1",
+      "sha256": "92dcf4460456060990164f4fc203bf3efa9db3e7cb3030a63e6b798f938dbaf1",
+      "size": 7467,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_artifice_5.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/4790f105e560d69d08c7730476b56913abc99e568306c2c30653081de188db19",
+      "sha256": "4790f105e560d69d08c7730476b56913abc99e568306c2c30653081de188db19",
+      "size": 4808,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_auromancy.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/414b058e3c36a57b76a2b9942d2f51a304958382c7bf58b4c4e38f6964b1d6e7",
+      "sha256": "414b058e3c36a57b76a2b9942d2f51a304958382c7bf58b4c4e38f6964b1d6e7",
+      "size": 17954,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_auromancy_1.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/427509a72d5b851f885850a3f6801ab1c07ab1a6079bc44e13a77d0167be87f0",
+      "sha256": "427509a72d5b851f885850a3f6801ab1c07ab1a6079bc44e13a77d0167be87f0",
+      "size": 13553,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_auromancy_10.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/e69eb545150c6621265ccb8258d962495c60fbca675e831c713cadae9b5af5a5",
+      "sha256": "e69eb545150c6621265ccb8258d962495c60fbca675e831c713cadae9b5af5a5",
+      "size": 7751,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_auromancy_11.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/429d7429cb84b87ebaeee9e93233f1250d3df1125c4d3b364f65ac4d06ee8f50",
+      "sha256": "429d7429cb84b87ebaeee9e93233f1250d3df1125c4d3b364f65ac4d06ee8f50",
+      "size": 14625,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_auromancy_2.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1a4fcfb15bd742e3e1638664194cf2e309014c4e3a7e2e01910b6e08a6863983",
+      "sha256": "1a4fcfb15bd742e3e1638664194cf2e309014c4e3a7e2e01910b6e08a6863983",
+      "size": 5234,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_auromancy_3.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/0aa24e86fa9afc6db45b8a981a8bdc1a414bce63d841de377003a9e4e5cdd0a9",
+      "sha256": "0aa24e86fa9afc6db45b8a981a8bdc1a414bce63d841de377003a9e4e5cdd0a9",
+      "size": 8349,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_auromancy_4.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/f05ff320b2ae213d8f7a2c7d2e346e7f519c3fd29b8b5182dd5527c5beeea486",
+      "sha256": "f05ff320b2ae213d8f7a2c7d2e346e7f519c3fd29b8b5182dd5527c5beeea486",
+      "size": 11496,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_auromancy_5.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/6897e443ececb9bd7533c50cb2c8823ad584080ebc5372399cc4800b5843472a",
+      "sha256": "6897e443ececb9bd7533c50cb2c8823ad584080ebc5372399cc4800b5843472a",
+      "size": 9616,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_auromancy_6.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/4fb3a616563f024cdb5cd2486364fcae1bb1c73aa7b0db9918a2f7f491d3a4d4",
+      "sha256": "4fb3a616563f024cdb5cd2486364fcae1bb1c73aa7b0db9918a2f7f491d3a4d4",
+      "size": 18869,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_auromancy_7.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/f9a411d74d550f78e76e34992b230d031a36904de97ef38829b60585499272ee",
+      "sha256": "f9a411d74d550f78e76e34992b230d031a36904de97ef38829b60585499272ee",
+      "size": 16804,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_auromancy_8.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/31734ef6060ad15154c42a5898bb672467312b2ebc77373324319ee0100393c1",
+      "sha256": "31734ef6060ad15154c42a5898bb672467312b2ebc77373324319ee0100393c1",
+      "size": 16245,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_auromancy_9.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/7ca0b6b843c6eb8b9cb16e05e2a523518d7b530e8e403263c9048358274147eb",
+      "sha256": "7ca0b6b843c6eb8b9cb16e05e2a523518d7b530e8e403263c9048358274147eb",
+      "size": 19201,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_basics.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/a8b3b4c8e85c7ba10b2f00f47c0beb175d2d66ddcfe9a929d79ac29ce35c9a11",
+      "sha256": "a8b3b4c8e85c7ba10b2f00f47c0beb175d2d66ddcfe9a929d79ac29ce35c9a11",
+      "size": 9842,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_basics_1.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/ae9928e053bb23664ff9efc8ef9f53054aca53cc5f9eec54d3983fb6bb34ef9d",
+      "sha256": "ae9928e053bb23664ff9efc8ef9f53054aca53cc5f9eec54d3983fb6bb34ef9d",
+      "size": 22230,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_basics_2.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/4e49131bda24e215a374cd5722607a8f4d945011c519613cea0662643c46ec15",
+      "sha256": "4e49131bda24e215a374cd5722607a8f4d945011c519613cea0662643c46ec15",
+      "size": 14093,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_basics_3.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/d7d7a69db4354eb8254360fcbef66785acae22234b2c07cbafa3cc598a8b3323",
+      "sha256": "d7d7a69db4354eb8254360fcbef66785acae22234b2c07cbafa3cc598a8b3323",
+      "size": 11053,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_basics_4.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/c9b010d1403287d4c1003c2490ae57dc0f25788a7406c141fa7a7d01b81d94b8",
+      "sha256": "c9b010d1403287d4c1003c2490ae57dc0f25788a7406c141fa7a7d01b81d94b8",
+      "size": 10951,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_basics_5.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/a4a93411e9651c4b206413bb893aac08df7f7e077c1900b46c9a1a596c874f81",
+      "sha256": "a4a93411e9651c4b206413bb893aac08df7f7e077c1900b46c9a1a596c874f81",
+      "size": 11369,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_basics_6.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/f446773fcf0b430379c75088120f09dd67252abe1f6ae926abdc1e623e9853d0",
+      "sha256": "f446773fcf0b430379c75088120f09dd67252abe1f6ae926abdc1e623e9853d0",
+      "size": 2539,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_eldritch.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/298ab5aba40e6e95041b0831673e3256ffa938e5ead891f8cc27e881adf0dcee",
+      "sha256": "298ab5aba40e6e95041b0831673e3256ffa938e5ead891f8cc27e881adf0dcee",
+      "size": 5881,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_eldritch_1.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3ca47c56dae4ba5f7360754ecb1d825a4211ba3db157d6488f61e8f329e219c7",
+      "sha256": "3ca47c56dae4ba5f7360754ecb1d825a4211ba3db157d6488f61e8f329e219c7",
+      "size": 10059,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_eldritch_2.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1df33ab827c99049918983e36cd2376567cf010591726a69ebd8dcbdc5d076e5",
+      "sha256": "1df33ab827c99049918983e36cd2376567cf010591726a69ebd8dcbdc5d076e5",
+      "size": 8261,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_golemancy.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/bc45fe597508fd042d7d5dcab4386e5e5a8b948c4b8c21ab75cc271137733009",
+      "sha256": "bc45fe597508fd042d7d5dcab4386e5e5a8b948c4b8c21ab75cc271137733009",
+      "size": 9209,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_golemancy_1.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/182e1e88d734321f5fb3b9e44f6637254d231d59c3e1e1613c9e7c583a03a9d6",
+      "sha256": "182e1e88d734321f5fb3b9e44f6637254d231d59c3e1e1613c9e7c583a03a9d6",
+      "size": 6884,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_golemancy_2.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3865ee74cabdbe4463ee46ea342fc4835d131b89734ef331aea2435dfd4db802",
+      "sha256": "3865ee74cabdbe4463ee46ea342fc4835d131b89734ef331aea2435dfd4db802",
+      "size": 14815,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_golemancy_3.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/0ae7cf48dae7b7077b231d8cd6195d329048f009542c665855f6af09c105f43c",
+      "sha256": "0ae7cf48dae7b7077b231d8cd6195d329048f009542c665855f6af09c105f43c",
+      "size": 10708,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_golemancy_4.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/733cae3aba04d0513c6886832fba2e2c38ef41592a213e84db368be8f9cff1d5",
+      "sha256": "733cae3aba04d0513c6886832fba2e2c38ef41592a213e84db368be8f9cff1d5",
+      "size": 6337,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_golemancy_5.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/19f3e37033245d3ea6cea0a03c5c76b73edcea63779ebe7e737f10cc544a46dc",
+      "sha256": "19f3e37033245d3ea6cea0a03c5c76b73edcea63779ebe7e737f10cc544a46dc",
+      "size": 11870,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_infusion.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/9df4f62fd7f1da6a2a77b890e72894c0658ea778b6aab2e7ec76d25f41ab29c6",
+      "sha256": "9df4f62fd7f1da6a2a77b890e72894c0658ea778b6aab2e7ec76d25f41ab29c6",
+      "size": 6857,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_infusion_1.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/7eff8c2f02c54f03cfa637417d63cc6c02eb0739893c7a57ca3512cc72ac25ea",
+      "sha256": "7eff8c2f02c54f03cfa637417d63cc6c02eb0739893c7a57ca3512cc72ac25ea",
+      "size": 10751,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_infusion_2.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/6ec0df0ae0655ad49f29cc8fabec8462418efe8b3884505a07713a0aee3a9558",
+      "sha256": "6ec0df0ae0655ad49f29cc8fabec8462418efe8b3884505a07713a0aee3a9558",
+      "size": 11073,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/th_infusion_3.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/8ef5789399b34f26d609b32b049c140c25ff0fac0193765402cce7e1c70727e2",
+      "sha256": "8ef5789399b34f26d609b32b049c140c25ff0fac0193765402cce7e1c70727e2",
+      "size": 12080,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/world_craft.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/d322b31e65aeaf906ea8232c09ed040aa801c041e4ae994da2b63756f62dcdfb",
+      "sha256": "d322b31e65aeaf906ea8232c09ed040aa801c041e4ae994da2b63756f62dcdfb",
+      "size": 12256,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/world_divine.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/b658f3d8a1951a3dfdcc328fccdb6ca1120702b9b64d33204065666281610e6f",
+      "sha256": "b658f3d8a1951a3dfdcc328fccdb6ca1120702b9b64d33204065666281610e6f",
+      "size": 6813,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/world_divine_1.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/9698cd4e1c8b288d4f513cc8c1eed132047f30bb7a93d9cbf3fdb2f30ca5f6eb",
+      "sha256": "9698cd4e1c8b288d4f513cc8c1eed132047f30bb7a93d9cbf3fdb2f30ca5f6eb",
+      "size": 11358,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/world_divine_2.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/c9642695e393db18865b45d33e2805719e4ee8b2c344e7397232650815213e4e",
+      "sha256": "c9642695e393db18865b45d33e2805719e4ee8b2c344e7397232650815213e4e",
+      "size": 2248,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/world_explore.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/d15f089839d9d81802830eb6d4b2a1deba40b9c4c9a16fcd08f0bfd250c0ee9b",
+      "sha256": "d15f089839d9d81802830eb6d4b2a1deba40b9c4c9a16fcd08f0bfd250c0ee9b",
+      "size": 9980,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/world_explore_1.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/5143b58c799c4c3b4e86fd78683f593a019bebf94fc11de6937bf7939f41bd1b",
+      "sha256": "5143b58c799c4c3b4e86fd78683f593a019bebf94fc11de6937bf7939f41bd1b",
+      "size": 12022,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/world_explore_2.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/72a4f458ffa51ad163f1c765e79d01f0c4255e67ae02aca08f4e050f9448d1ba",
+      "sha256": "72a4f458ffa51ad163f1c765e79d01f0c4255e67ae02aca08f4e050f9448d1ba",
+      "size": 7879,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/world_relics.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/9666b5ab366dd4a5ba33a02dbce7a3d3401897625634f1589b23b71acc4a2c30",
+      "sha256": "9666b5ab366dd4a5ba33a02dbce7a3d3401897625634f1589b23b71acc4a2c30",
+      "size": 6429,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/world_relics_1.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/40bf7ae3b1c2294265d1bde5424a911c10bafaa7fd955effdd51d55e02d47590",
+      "sha256": "40bf7ae3b1c2294265d1bde5424a911c10bafaa7fd955effdd51d55e02d47590",
+      "size": 3819,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/world_wild.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/8ee5313cc7d9ba1274a0f9313af5185bef0e3adc72a4965af380355d4528bafe",
+      "sha256": "8ee5313cc7d9ba1274a0f9313af5185bef0e3adc72a4965af380355d4528bafe",
+      "size": 19259,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/data.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/685699c19b5fb1ccbe717f9333ea52ce0e285088e212d821dbb86246921beb8a",
+      "sha256": "685699c19b5fb1ccbe717f9333ea52ce0e285088e212d821dbb86246921beb8a",
+      "size": 664,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/lang/en_us.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/4a4ec7c02b70c1cca0d459fe866d77c518b3346f6438d41b2336231c2ed7e3ad",
+      "sha256": "4a4ec7c02b70c1cca0d459fe866d77c518b3346f6438d41b2336231c2ed7e3ad",
+      "size": 490220,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests/quests/lang/ru_ru.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/775713c013ac2a818f544ab70e549f409c316961d650f29fba1d7ab8fc5f3d68",
+      "sha256": "775713c013ac2a818f544ab70e549f409c316961d650f29fba1d7ab8fc5f3d68",
+      "size": 517869,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbquests-client.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1032e8651b80ddc5ddc712a56ae0d5a3408e9c28d5dcac2578705cce9ea4bcd0",
+      "sha256": "1032e8651b80ddc5ddc712a56ae0d5a3408e9c28d5dcac2578705cce9ea4bcd0",
+      "size": 1551,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/ftbteams-server.snbt",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/61b37c30c24d841f4d993e933df0d60f198fbcf06671a87a73b9a23f8434858d",
+      "sha256": "61b37c30c24d841f4d993e933df0d60f198fbcf06671a87a73b9a23f8434858d",
+      "size": 1112,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/fzzy_config/keybinds.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f",
+      "sha256": "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f",
+      "size": 6403,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/global_packs.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/5e31ebff8493b9a3a93c83af6deb0b1d2ead1dc740475c885b1fcc824ec0bdd7",
+      "sha256": "5e31ebff8493b9a3a93c83af6deb0b1d2ead1dc740475c885b1fcc824ec0bdd7",
+      "size": 1230,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/guardvillagers-client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/8a29fd7537bbc20e2b9fae3da4e23b23a50f33aabfbefe934ffa50d83643c62c",
+      "sha256": "8a29fd7537bbc20e2b9fae3da4e23b23a50f33aabfbefe934ffa50d83643c62c",
+      "size": 340,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/guardvillagers-common.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/53e4eb8d95f37fd088f30ba9c506349e6657b46ba6f81a48d478b3232c988d00",
+      "sha256": "53e4eb8d95f37fd088f30ba9c506349e6657b46ba6f81a48d478b3232c988d00",
+      "size": 6189,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/guardvillagers-startup.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/02941cb74d4016b874dc5a907fd26a8c3053387ad070c2eadeaa33e45926a1bb",
+      "sha256": "02941cb74d4016b874dc5a907fd26a8c3053387ad070c2eadeaa33e45926a1bb",
+      "size": 195,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/immediatelyfast.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a",
+      "sha256": "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a",
+      "size": 1114,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/inventory_particles.json5",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/fbd08cbb8fbc7606ccbec8ab7e084678ee433051c5329dad365a50cc0ba506c3",
+      "sha256": "fbd08cbb8fbc7606ccbec8ab7e084678ee433051c5329dad365a50cc0ba506c3",
+      "size": 1675,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/inventorysorter-client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3036042e2f401f4cec98e0399fa52cc84f1a419388762c3d31f254d088cc143f",
+      "sha256": "3036042e2f401f4cec98e0399fa52cc84f1a419388762c3d31f254d088cc143f",
+      "size": 199,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/inventorysorter-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/67187f690326108f6f4123dd517702157dad8e272016129ee4314341788f9db4",
+      "sha256": "67187f690326108f6f4123dd517702157dad8e272016129ee4314341788f9db4",
+      "size": 137,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/iris-excluded.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb",
+      "sha256": "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb",
+      "size": 31,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/iris.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/eb3ab11b8c3c17c689bc0c06103ad962d3cfafc03438f822c5e6410d7387b07a",
+      "sha256": "eb3ab11b8c3c17c689bc0c06103ad962d3cfafc03438f822c5e6410d7387b07a",
+      "size": 378,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jade/hide-blocks.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa",
+      "sha256": "309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa",
+      "size": 149,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jade/hide-entities.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709",
+      "sha256": "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709",
+      "size": 243,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jade/jade.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05",
+      "sha256": "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05",
+      "size": 1089,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jade/plugins.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/37c9a4c33b7427b09a0ab9d06fe0ca083273d3ed5eb84cb9da3e8eeb951f9c96",
+      "sha256": "37c9a4c33b7427b09a0ab9d06fe0ca083273d3ed5eb84cb9da3e8eeb951f9c96",
+      "size": 3379,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jade/sort-order.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/8e1abe77628e41df5a1cfdc7dd5de5ff9905ee27f6fec19cd93ea74e17b29829",
+      "sha256": "8e1abe77628e41df5a1cfdc7dd5de5ff9905ee27f6fec19cd93ea74e17b29829",
+      "size": 2292,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jei/blacklist.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648",
+      "sha256": "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648",
+      "size": 19,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jei/client/default/jei-client.ini",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/cdadcf027b25930a10d7aa888883e78d0e3b1b46fb75b7982022130d9bb75d54",
+      "sha256": "cdadcf027b25930a10d7aa888883e78d0e3b1b46fb75b7982022130d9bb75d54",
+      "size": 16999,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jei/client/default/jei-colors.ini",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/c6d4ae48280627d04a7ae2b6d3db65e71d73670a72732f5aed9f4cfaac3837c7",
+      "sha256": "c6d4ae48280627d04a7ae2b6d3db65e71d73670a72732f5aed9f4cfaac3837c7",
+      "size": 1655,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jei/client/default/jei-mod-id-format.ini",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/2e5119684366f75bc8a6df871381c6094a812cadd0d5ed0547405b5f1353f9e1",
+      "sha256": "2e5119684366f75bc8a6df871381c6094a812cadd0d5ed0547405b5f1353f9e1",
+      "size": 863,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/f5c74a5f87be9c06c2d9b499baab01b42dd6981c8894886804c38c04c092561b",
+      "sha256": "f5c74a5f87be9c06c2d9b499baab01b42dd6981c8894886804c38c04c092561b",
+      "size": 387,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jei/client/ingredient-list-type-sort-order.ini",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/33516b65e587a121d577d69ea64d4a6701d4018d0d7c488c9cf560253bcc4f1c",
+      "sha256": "33516b65e587a121d577d69ea64d4a6701d4018d0d7c488c9cf560253bcc4f1c",
+      "size": 204,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jei/client/recipe-category-sort-order.ini",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/6ed4488a28601e4b208ebd3c62827eb4597b54b6435c21af54a54b23bfdba7a6",
+      "sha256": "6ed4488a28601e4b208ebd3c62827eb4597b54b6435c21af54a54b23bfdba7a6",
+      "size": 1043,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jei/server/world/default/jei-server.ini",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/8d8225fc76ea4918d7847badf319ec4d0fca4263e12f6df56f9aa5025403f117",
+      "sha256": "8d8225fc76ea4918d7847badf319ec4d0fca4263e12f6df56f9aa5025403f117",
+      "size": 1205,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/jeioptimizations.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/27951aea99c8a82aff1a8f99ee6e92c457a58c771fa9c5614ffb21013dc5f5de",
+      "sha256": "27951aea99c8a82aff1a8f99ee6e92c457a58c771fa9c5614ffb21013dc5f5de",
+      "size": 2384,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/journeymap-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/6e912ff84da0c3a1c8955954ba79baedaef3e64d2ea81f041484581a4928d173",
+      "sha256": "6e912ff84da0c3a1c8955954ba79baedaef3e64d2ea81f041484581a4928d173",
+      "size": 498,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/justzoom/config.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/61c0e70085701eaba77235de4401a439d21488fe3c3cdb01eb5239d4813f0427",
+      "sha256": "61c0e70085701eaba77235de4401a439d21488fe3c3cdb01eb5239d4813f0427",
+      "size": 720,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/legendarytooltips.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3ee86b7d3db0c11d9e4288110804777e598f49a8445fa63d7fbec00f74a0f92f",
+      "sha256": "3ee86b7d3db0c11d9e4288110804777e598f49a8445fa63d7fbec00f74a0f92f",
+      "size": 9333,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/letmedespawn/letmedespawn.json5",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1334df0a2e9c4e4d0938b3eb19c1a0fa2d29d8090838797259de0865d3bbec88",
+      "sha256": "1334df0a2e9c4e4d0938b3eb19c1a0fa2d29d8090838797259de0865d3bbec88",
+      "size": 1449,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/lithium.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be",
+      "sha256": "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be",
+      "size": 267,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/lithostitched.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/ce8ab190281862b0554c92043c2bf8af106fbe4116bcd6dab433f6506781dbc0",
+      "sha256": "ce8ab190281862b0554c92043c2bf8af106fbe4116bcd6dab433f6506781dbc0",
+      "size": 273,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/lootintegrations.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/7aa9af0a8889f5b1d50759dace16f8d64ea5773401ab4db0487300cb754e6c5d",
+      "sha256": "7aa9af0a8889f5b1d50759dace16f8d64ea5773401ab4db0487300cb754e6c5d",
+      "size": 968,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/mezz_config/client/default/settings.ini",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1febf6ff1d35f4ffe34d6e5444e3c9496155a6abf3f49eb4ef5650d102645249",
+      "sha256": "1febf6ff1d35f4ffe34d6e5444e3c9496155a6abf3f49eb4ef5650d102645249",
+      "size": 1452,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/midnightlib.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/b14c45c6447f9ee5474d70784a2ef96731abbeca1e92485b7599e76e9dce1444",
+      "sha256": "b14c45c6447f9ee5474d70784a2ef96731abbeca1e92485b7599e76e9dce1444",
+      "size": 37,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/mobs_of_mythology.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/fef67d9f7d5ff146f21553ff65642e623c6314c8f147799efd1ebbd17f66209b",
+      "sha256": "fef67d9f7d5ff146f21553ff65642e623c6314c8f147799efd1ebbd17f66209b",
+      "size": 2196,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/modernfix-common.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7",
+      "sha256": "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7",
+      "size": 105,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/modernfix-mixins.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/cda1de84880f439d9c8a025861a483d51972e76b8a5a6a253dd0196aec821ac5",
+      "sha256": "cda1de84880f439d9c8a025861a483d51972e76b8a5a6a253dd0196aec821ac5",
+      "size": 5491,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/monocle.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3907608e980f10050f0b9a7186e4a988a5506f363a46156b733e07049d986ae2",
+      "sha256": "3907608e980f10050f0b9a7186e4a988a5506f363a46156b733e07049d986ae2",
+      "size": 1069,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/moreculling.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/db63bd41fae1b92828f13b34b93215549ca167ccf44a4c09d050fe559fa203a5",
+      "sha256": "db63bd41fae1b92828f13b34b93215549ca167ccf44a4c09d050fe559fa203a5",
+      "size": 540,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/MouseTweaks.cfg",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4",
+      "sha256": "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4",
+      "size": 135,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/naturalist-client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3d626a28c780c6ff977a43d195335c066d48f4c1e4052a51c6339f86e5975791",
+      "sha256": "3d626a28c780c6ff977a43d195335c066d48f4c1e4052a51c6339f86e5975791",
+      "size": 26,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/naturalist-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/6ab307d70183380a10a0cbc50de621c2d23d43946384b8c08531acec14eb8dbf",
+      "sha256": "6ab307d70183380a10a0cbc50de621c2d23d43946384b8c08531acec14eb8dbf",
+      "size": 1525,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/neoforge-client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/d58d93e2c429410d0abf25507d1679f732e1023b03bb52414348efcf5cf3ddb0",
+      "sha256": "d58d93e2c429410d0abf25507d1679f732e1023b03bb52414348efcf5cf3ddb0",
+      "size": 578,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/neoforge-common.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/f4c2927c13027aad81e60819d1a2b1fc6d5d3226051c8d53f9fd8e37965016fb",
+      "sha256": "f4c2927c13027aad81e60819d1a2b1fc6d5d3226051c8d53f9fd8e37965016fb",
+      "size": 1052,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/neoforge-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f",
+      "sha256": "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f",
+      "size": 1177,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/patchouli-client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/d9a6d7cadb6d473cf087602d9866840d2bb7f2c16915267eb3f6fbf68d5d774d",
+      "sha256": "d9a6d7cadb6d473cf087602d9866840d2bb7f2c16915267eb3f6fbf68d5d774d",
+      "size": 1089,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/placebo.cfg",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/eb7e9906d126543f03c2257ca98efa4b845d1e7479dc8b069a12b194c86debcf",
+      "sha256": "eb7e9906d126543f03c2257ca98efa4b845d1e7479dc8b069a12b194c86debcf",
+      "size": 495,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/punchy/punchy_config.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/9a1adad063bd522b637e277bfc934b445604eb41177a0e637b3a98542b3301f0",
+      "sha256": "9a1adad063bd522b637e277bfc934b445604eb41177a0e637b3a98542b3301f0",
+      "size": 1487,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/punchy/triggerable-keybindings.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/816b7e4cb4d4bb13c62e8ccece74c02f2d01e4fbf04df5995b3a65ddb49cabff",
+      "sha256": "816b7e4cb4d4bb13c62e8ccece74c02f2d01e4fbf04df5995b3a65ddb49cabff",
+      "size": 113,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/quickskin-server.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/aad0647b41dd510bc84a90f3384c5184c385fb3e962c918fe19fad625ace9fe3",
+      "sha256": "aad0647b41dd510bc84a90f3384c5184c385fb3e962c918fe19fad625ace9fe3",
+      "size": 364,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/relics.yaml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3a06e656323ddfd8221469c3aebf0849e65638aa886d71ceb4cbf9e023b9787d",
+      "sha256": "3a06e656323ddfd8221469c3aebf0849e65638aa886d71ceb4cbf9e023b9787d",
+      "size": 1487,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/scalablelux.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/aefdcab42a270c12a6001ea8ecc485f1e9e83bdd6bb321c88696d0966fe38627",
+      "sha256": "aefdcab42a270c12a6001ea8ecc485f1e9e83bdd6bb321c88696d0966fe38627",
+      "size": 84,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/simplyswords/compatibility.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/e7a5c5756ccadd5d968049a8820c83dce700d7d478a843385688d38d135a9217",
+      "sha256": "e7a5c5756ccadd5d968049a8820c83dce700d7d478a843385688d38d135a9217",
+      "size": 11974,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/simplyswords/gem_powers.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/4f911868905452dc01a779d424fe298c583cc31ae57b0c76157c806f70c38727",
+      "sha256": "4f911868905452dc01a779d424fe298c583cc31ae57b0c76157c806f70c38727",
+      "size": 3651,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/simplyswords/general.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/0452c273bf163f178c6b03663070a9d732a63e3fecbb28b3fd4fb45dd3c6eafa",
+      "sha256": "0452c273bf163f178c6b03663070a9d732a63e3fecbb28b3fd4fb45dd3c6eafa",
+      "size": 873,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/simplyswords/gui.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/d34c7814baa027aa67fde721f3a437bcb6b3e9a89f0245970fd1489525ef5620",
+      "sha256": "d34c7814baa027aa67fde721f3a437bcb6b3e9a89f0245970fd1489525ef5620",
+      "size": 106,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/simplyswords/loot.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/d4a49a7f776392a6643171d6b440c0afb897b285ba88c44aa8386b2aa2c9d55a",
+      "sha256": "d4a49a7f776392a6643171d6b440c0afb897b285ba88c44aa8386b2aa2c9d55a",
+      "size": 1314,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/simplyswords/status_effects.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/978429e6e9aa6852c38d67cc221d7d71d8502b92df3a5803ff8c3b6966c890ce",
+      "sha256": "978429e6e9aa6852c38d67cc221d7d71d8502b92df3a5803ff8c3b6966c890ce",
+      "size": 85,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/simplyswords/unique_effects.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/a2d2026d1db8aad6397e348d2361a8d19f498157ecf47c7bafe58ede85679af6",
+      "sha256": "a2d2026d1db8aad6397e348d2361a8d19f498157ecf47c7bafe58ede85679af6",
+      "size": 16438,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/simplyswords/weapon_attributes.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/7880be9f01875cd9e99c653c5afb1c41d98a9e649657f08bd47e702895fe133b",
+      "sha256": "7880be9f01875cd9e99c653c5afb1c41d98a9e649657f08bd47e702895fe133b",
+      "size": 4777,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/simplytooltips/config.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3e5b250f6fa5e4ffb246fd04e6dcffde1cbf4da77d424e9d88e115444427cb09",
+      "sha256": "3e5b250f6fa5e4ffb246fd04e6dcffde1cbf4da77d424e9d88e115444427cb09",
+      "size": 342,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/skilltree-client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/a01628a822c6a43459fe684b4466cd2515c9e17dfeddf480f81678ab8861a1fa",
+      "sha256": "a01628a822c6a43459fe684b4466cd2515c9e17dfeddf480f81678ab8861a1fa",
+      "size": 93,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/skilltree-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/94e330fdb24f7b8d223f15d6f5d5112d411a18a12e8ce0cb813d9ea8f3f3763d",
+      "sha256": "94e330fdb24f7b8d223f15d6f5d5112d411a18a12e8ce0cb813d9ea8f3f3763d",
+      "size": 1317,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/sodium-extra-options.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1631acf58f7743d97da178fe561818609cfb862dd4c45d71b3c8646fe08b964d",
+      "sha256": "1631acf58f7743d97da178fe561818609cfb862dd4c45d71b3c8646fe08b964d",
+      "size": 1534,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/sodium-extra.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70",
+      "sha256": "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70",
+      "size": 360,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/sound_physics_remastered/occlusion.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb",
+      "sha256": "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb",
+      "size": 4831,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/sound_physics_remastered/reflectivity.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a",
+      "sha256": "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a",
+      "size": 4713,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/sound_physics_remastered/sound_rates.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/cc06224ac8229e7731131396b70d58b79d200aee7ed3a5524a5fd33605789a30",
+      "sha256": "cc06224ac8229e7731131396b70d58b79d200aee7ed3a5524a5fd33605789a30",
+      "size": 108043,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/sound_physics_remastered/soundphysics.properties",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/d29dede3f214ee4b1aa03314f92c3f973c21ee6e26d173eba3d01a2083237b6d",
+      "sha256": "d29dede3f214ee4b1aa03314f92c3f973c21ee6e26d173eba3d01a2083237b6d",
+      "size": 5104,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/sounds/chat.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/fb247dcb76a3764c07249301c74c79311ca2a4c18d46351d4bda7a86afc2aa37",
+      "sha256": "fb247dcb76a3764c07249301c74c79311ca2a4c18d46351d4bda7a86afc2aa37",
+      "size": 641,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/sounds/event.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/6245d6fd01be9aac33c2c7967fb795b8542a21526623ffc19a85596b3a6e1d1f",
+      "sha256": "6245d6fd01be9aac33c2c7967fb795b8542a21526623ffc19a85596b3a6e1d1f",
+      "size": 797,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/sounds/mod_utils.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/ad4c5fe9811db5595602b39957453cf553ca0ccf0c084db6393caa2f2fa05132",
+      "sha256": "ad4c5fe9811db5595602b39957453cf553ca0ccf0c084db6393caa2f2fa05132",
+      "size": 41,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/sounds/ui.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/ad2d93625c17340af17d4f8160853cb2a8db338ebc5e8989c574798039379f56",
+      "sha256": "ad2d93625c17340af17d4f8160853cb2a8db338ebc5e8989c574798039379f56",
+      "size": 2108,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/sounds/world.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/f8f1818ba5c8887bd01973839f9a413c1232cc1a1c4be7e5c72250ff2af042e7",
+      "sha256": "f8f1818ba5c8887bd01973839f9a413c1232cc1a1c4be7e5c72250ff2af042e7",
+      "size": 1778,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/terrablender.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927",
+      "sha256": "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927",
+      "size": 988,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/terralith.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/eadc7fad5ce55fbcec25df521820d36c222d5b12f17006ed9fea34ebeb6fd01d",
+      "sha256": "eadc7fad5ce55fbcec25df521820d36c222d5b12f17006ed9fea34ebeb6fd01d",
+      "size": 212,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/thaumaturge/aspect_index.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/593a9d0eb80fe5c1437d58c5c2044389a5290bc1422348157674e43c3c485822",
+      "sha256": "593a9d0eb80fe5c1437d58c5c2044389a5290bc1422348157674e43c3c485822",
+      "size": 978880,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/thaumaturge-client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/c195ffe1dd1e69651c7e383c005453856e67917c2edbc3e5f5cf8f19019f0d3f",
+      "sha256": "c195ffe1dd1e69651c7e383c005453856e67917c2edbc3e5f5cf8f19019f0d3f",
+      "size": 579,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/thaumaturge-common.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/f3b5f47cae13a68a007db3d55e6b2da1e09fb9f305589bfaf00ac04d004efe2a",
+      "sha256": "f3b5f47cae13a68a007db3d55e6b2da1e09fb9f305589bfaf00ac04d004efe2a",
+      "size": 8125,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/thaumaturge-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/458e02e27bce8f6ee91e47b1302fee38f5f01abde52b9a5a84a1b358666707a2",
+      "sha256": "458e02e27bce8f6ee91e47b1302fee38f5f01abde52b9a5a84a1b358666707a2",
+      "size": 9275,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/thaumaturgeadditions-common.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/4bc4519ac9d00ffdc9f746ddfa89cf0a0142de91750fd45064fb42c8bc40b776",
+      "sha256": "4bc4519ac9d00ffdc9f746ddfa89cf0a0142de91750fd45064fb42c8bc40b776",
+      "size": 35,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/transition.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c",
+      "sha256": "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c",
+      "size": 97,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/travelersbackpack-client.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/6bb37450357866f3efdd0735923f3f4f7742d403092ff917213388e0f9a599aa",
+      "sha256": "6bb37450357866f3efdd0735923f3f4f7742d403092ff917213388e0f9a599aa",
+      "size": 1820,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/travelersbackpack-common.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/37ce5a56214bb9ca267ea3a4bdeee69da309afbbd6f74866efdd6e987a709ce3",
+      "sha256": "37ce5a56214bb9ca267ea3a4bdeee69da309afbbd6f74866efdd6e987a709ce3",
+      "size": 197,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/travelersbackpack-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/0188642f2929de2092b88d1d54fc3f772d33fe4ec231a8dd1e14120457979217",
+      "sha256": "0188642f2929de2092b88d1d54fc3f772d33fe4ec231a8dd1e14120457979217",
+      "size": 11997,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/trender.json",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124",
+      "sha256": "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124",
+      "size": 47,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/yacl.json5",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e",
+      "sha256": "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e",
+      "size": 250,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "config/yungscavebiomes-neoforge-1_21_1.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/022f771e899ae3a0953a172e36e2b4c6bea556a4a8e467b0849eac101b943dda",
+      "sha256": "022f771e899ae3a0953a172e36e2b4c6bea556a4a8e467b0849eac101b943dda",
+      "size": 3260,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "datapacks/BoostyMagicRPG_A02_CTOV_Wares.zip",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/d93f4c39f3a2f78acef2c709587abc70c49d294f9766b0cf223c159b1ad89acc",
+      "sha256": "d93f4c39f3a2f78acef2c709587abc70c49d294f9766b0cf223c159b1ad89acc",
+      "size": 4771,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "datapacks/BoostyMagicRPG_A03_SimplySwords.zip",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/239dbec6b0a95b96d59ada2884f88d4e14201952e89723dbb57e8634b8f95603",
+      "sha256": "239dbec6b0a95b96d59ada2884f88d4e14201952e89723dbb57e8634b8f95603",
+      "size": 1252,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "datapacks/BoostyMagicRPG_A04_DNT_Advancements.zip",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1ad662aa4b56d668a9fcf394fe037215b41d9307ffe149869c0b1defd11e5d5a",
+      "sha256": "1ad662aa4b56d668a9fcf394fe037215b41d9307ffe149869c0b1defd11e5d5a",
+      "size": 942,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "defaultconfigs/block_factorys_bosses-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/2e6624ed2974729727702aa11e9064c2b72a12e3e65488e09e2f44191354b403",
+      "sha256": "2e6624ed2974729727702aa11e9064c2b72a12e3e65488e09e2f44191354b403",
+      "size": 843,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "defaultconfigs/curios-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add",
+      "sha256": "1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add",
+      "size": 483,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "defaultconfigs/inventorysorter-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/67187f690326108f6f4123dd517702157dad8e272016129ee4314341788f9db4",
+      "sha256": "67187f690326108f6f4123dd517702157dad8e272016129ee4314341788f9db4",
+      "size": 137,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "defaultconfigs/journeymap-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/6e912ff84da0c3a1c8955954ba79baedaef3e64d2ea81f041484581a4928d173",
+      "sha256": "6e912ff84da0c3a1c8955954ba79baedaef3e64d2ea81f041484581a4928d173",
+      "size": 498,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "defaultconfigs/neoforge-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f",
+      "sha256": "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f",
+      "size": 1177,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "defaultconfigs/skilltree-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/94e330fdb24f7b8d223f15d6f5d5112d411a18a12e8ce0cb813d9ea8f3f3763d",
+      "sha256": "94e330fdb24f7b8d223f15d6f5d5112d411a18a12e8ce0cb813d9ea8f3f3763d",
+      "size": 1317,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "defaultconfigs/thaumaturge-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/458e02e27bce8f6ee91e47b1302fee38f5f01abde52b9a5a84a1b358666707a2",
+      "sha256": "458e02e27bce8f6ee91e47b1302fee38f5f01abde52b9a5a84a1b358666707a2",
+      "size": 9275,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "defaultconfigs/travelersbackpack-server.toml",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/0188642f2929de2092b88d1d54fc3f772d33fe4ec231a8dd1e14120457979217",
+      "sha256": "0188642f2929de2092b88d1d54fc3f772d33fe4ec231a8dd1e14120457979217",
+      "size": 11997,
+      "policy": "seed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "global_packs/required_data/ArcaneGenesis_Ranger_Alpha_0.1_datapack.zip",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/97956809cba2cacc1ceb9523625197f9ce4e8b1e291dd3b2523d614448782e98",
+      "sha256": "97956809cba2cacc1ceb9523625197f9ce4e8b1e291dd3b2523d614448782e98",
+      "size": 300865,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "global_packs/required_data/BoostyMagicRPG_QuestProgress_2.1_datapack.zip",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/121922151410539f619f9eb5acf9f484a1e1fa9ed1228f81a0c51a4afcc9cd72",
+      "sha256": "121922151410539f619f9eb5acf9f484a1e1fa9ed1228f81a0c51a4afcc9cd72",
+      "size": 3580,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "global_packs/required_resources/ArcaneGenesis_Astral_Codex_1.3.zip",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/12189d3a487569bb019d4b6ddffafcb42522ecf6a28bfb2d828d33ad69d9f9ee",
+      "sha256": "12189d3a487569bb019d4b6ddffafcb42522ecf6a28bfb2d828d33ad69d9f9ee",
+      "size": 84554,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "mods/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
+      "url": "https://cdn.modrinth.com/data/9NM0dXub/versions/OWylG33I/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
+      "sha256": "a24674330b8de59a02e0ebe4dd81fcff15d90e8c1cdcc32980d73c1cab050933",
+      "size": 195730,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/9NM0dXub"
+    },
+    {
+      "path": "mods/almanac-neoforge-1.21.1-1.26.11.1.jar",
+      "url": "https://cdn.modrinth.com/data/Gi02250Z/versions/hvOxynOa/almanac-neoforge-1.21.1-1.26.11.1.jar",
+      "sha256": "df5858e1013c78924c7201a0cd155c83f1aeba740303e94b3d49705937bcc771",
+      "size": 430991,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/Gi02250Z"
+    },
+    {
+      "path": "mods/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/fM515JnW/versions/WGalCQAo/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.jar",
+      "sha256": "72f57a9ba621f18994a17c5882f2d7fa34d27fa3614c1073d49bd3deda61b8d8",
+      "size": 84815086,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/fM515JnW"
+    },
+    {
+      "path": "mods/Apotheosis-1.21.1-8.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/rqFWfVlz/versions/veL1ccTb/Apotheosis-1.21.1-8.9.0.jar",
+      "sha256": "23a8b4a21d0d8744f097c77c8a96fcba14c4b95f3b1bb542412f40dab272872e",
+      "size": 7184314,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/rqFWfVlz"
+    },
+    {
+      "path": "mods/ApothicAttributes-1.21.1-2.11.0.jar",
+      "url": "https://cdn.modrinth.com/data/DGaH8Rh0/versions/64fZbLnj/ApothicAttributes-1.21.1-2.11.0.jar",
+      "sha256": "17c42bb6dd5c0d820fe090e1bb5959578cd5ab7b70caf98a2a59b319fcc7e1ba",
+      "size": 319609,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/DGaH8Rh0"
+    },
+    {
+      "path": "mods/ApothicEnchanting-1.21.1-1.6.4.jar",
+      "url": "https://cdn.modrinth.com/data/pL8MtgqY/versions/JAQJkLJ1/ApothicEnchanting-1.21.1-1.6.4.jar",
+      "sha256": "aff9837f45c1c981d47a9e60b780c37a151ef881937faf5f72092895104c8bbb",
+      "size": 5422885,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/pL8MtgqY"
+    },
+    {
+      "path": "mods/ApothicSpawners-1.21.1-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/DfxVkOAO/versions/pWfxcfO2/ApothicSpawners-1.21.1-1.4.0.jar",
+      "sha256": "f0cbc52ad606997789c36fac94ae651ab7e2e21c841e26a952c64041cad9cdbe",
+      "size": 129784,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/DfxVkOAO"
+    },
+    {
+      "path": "mods/appleskin-neoforge-mc1.21-3.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/uAKA6Laj/appleskin-neoforge-mc1.21-3.0.9.jar",
+      "sha256": "38b48dd6231341c9f964ce6e42c57ec866c6cc8f72bec938390a59bafb3922df",
+      "size": 75804,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/EsAfCjCV"
+    },
+    {
+      "path": "mods/architectury-13.0.11-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1IiqEQGl/architectury-13.0.11-neoforge.jar",
+      "sha256": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
+      "size": 584734,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/lhGA9TYQ"
+    },
+    {
+      "path": "mods/artifacts-neoforge-13.2.5.jar",
+      "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/lMfuK0o7/artifacts-neoforge-13.2.5.jar",
+      "sha256": "e36a929420a0a616abdb28f5bbbdb866a426aa3bb78d1b39bc1183927c101ce6",
+      "size": 1086922,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/P0Mu4wcQ"
+    },
+    {
+      "path": "mods/AsyncParticles-21.1.4.11+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/c3onkd5k/versions/ZCHsCohA/AsyncParticles-21.1.4.11%2B1.21.1.jar",
+      "sha256": "4bc63a92412ec57dcd7cf551f5e69d75f8549d2a5eec01fd21717b45f2ecf02a",
+      "size": 1312408,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/c3onkd5k"
+    },
+    {
+      "path": "mods/azurelib-neo-1.21.1-3.2.8.jar",
+      "url": "https://cdn.modrinth.com/data/7zlUOZvb/versions/rzVuOJoh/azurelib-neo-1.21.1-3.2.8.jar",
+      "sha256": "aff0e1e6e82aa4d3f444c6bc229112bac750a9e1e9139becf21f25f0cfa5acd3",
+      "size": 1389101,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/7zlUOZvb"
+    },
+    {
+      "path": "mods/BadOptimizations-2.4.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/S2qthD5S/BadOptimizations-2.4.1-1.21.1.jar",
+      "sha256": "22e2467892d3706f43d1cf2aa637785bb8601c20b0098a82ab956e6a8fc4d2ba",
+      "size": 283566,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/g96Z4WVZ"
+    },
+    {
+      "path": "mods/better_modlist-21.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/sbpqhzIG/versions/QRL2q28j/better_modlist-21.1.5.jar",
+      "sha256": "3fbb4149b2a819ee796d0fe3f7fc216bb98c3a85f928cc0d7f108ad3643e2594",
+      "size": 823891,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/sbpqhzIG"
+    },
+    {
+      "path": "mods/bettercombat-neoforge-2.4.0%2B1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/5sy6g3kz/versions/VhIOvcXP/bettercombat-neoforge-2.4.0%2B1.21.1.jar",
+      "sha256": "0446e9faa98b764ba010ac31e337d14ac96bbb2fbfeff9b599e1efd510dfde5a",
+      "size": 1045389,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/5sy6g3kz"
+    },
+    {
+      "path": "mods/BetterF3-11.0.3-NeoForge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/maXNB1dn/BetterF3-11.0.3-NeoForge-1.21.1.jar",
+      "sha256": "1a97b6ca5c81b3b18d653f403929908e3b48bb1bdb6e8bd8559f89cf0294dc26",
+      "size": 481646,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/8shC1gFX"
+    },
+    {
+      "path": "mods/block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/q2bV1Tm1/versions/lE9PF6Wp/block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "sha256": "9e230bd509e7aeb3af4c08125db0340734c0179d83483649a16e45c0ea085e8c",
+      "size": 23943105,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/q2bV1Tm1"
+    },
+    {
+      "path": "mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
+      "url": "https://cdn.modrinth.com/data/uy4Cnpcm/versions/1sdJl7J1/bookshelf-neoforge-1.21.1-21.1.81.jar",
+      "sha256": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76",
+      "size": 328813,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/uy4Cnpcm"
+    },
+    {
+      "path": "mods/brpg-apotheosis-jei-0.4.0.jar",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/c65dde06c3ae6848315afc3b49a0011c253e8f360a0d17fccdbef6192a90760f",
+      "sha256": "c65dde06c3ae6848315afc3b49a0011c253e8f360a0d17fccdbef6192a90760f",
+      "size": 23413,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "mods/brpg-campaign-2.0.0.jar",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/4488f2c753539575769f62540a2ad4b415d5c4ac7d4aaaa673a44985b4ea9ea5",
+      "sha256": "4488f2c753539575769f62540a2ad4b415d5c4ac7d4aaaa673a44985b4ea9ea5",
+      "size": 9799,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "mods/brpg-combat-5.5.0-dev.1.jar",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/d26a1e1a0a72191f44283733e056200b9847a02de2f0eada2ce3a5cc4cc4e591",
+      "sha256": "d26a1e1a0a72191f44283733e056200b9847a02de2f0eada2ce3a5cc4cc4e591",
+      "size": 348923,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "mods/brpg-compat-0.1.0.jar",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/2dd16f751c5c53987859a3ad046bb62c9113b36654f16234d42e5d8710cc7229",
+      "sha256": "2dd16f751c5c53987859a3ad046bb62c9113b36654f16234d42e5d8710cc7229",
+      "size": 3257,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "mods/brpg-mana-0.3.0-dev.1.jar",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/a38419889a1a88028654c0a4809321f739316086a9a801db5f6cd9460ab2237f",
+      "sha256": "a38419889a1a88028654c0a4809321f739316086a9a801db5f6cd9460ab2237f",
+      "size": 56963,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "mods/brpg-quest-progress-0.2.0.jar",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/3c529c174750947cf36b8f7e3b3b954006fb84db056456591f78768f096e6324",
+      "sha256": "3c529c174750947cf36b8f7e3b3b954006fb84db056456591f78768f096e6324",
+      "size": 11538,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "mods/brpg-traveller-compat-0.1.0.jar",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/e84b45efd54408e40e77dae5124ab535a4d2b26271f9feb9704802ae3243f54c",
+      "sha256": "e84b45efd54408e40e77dae5124ab535a4d2b26271f9feb9704802ae3243f54c",
+      "size": 4631,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "mods/cloth-config-15.0.140-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/izKINKFg/cloth-config-15.0.140-neoforge.jar",
+      "sha256": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4",
+      "size": 1163890,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/9s6osm5g"
+    },
+    {
+      "path": "mods/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/jo7lDoK4/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "sha256": "b524ccdace2ef8fd19f5b2074f7de1103ac5065c52553f064c00e098346c293e",
+      "size": 18382,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/Wnxd13zP"
+    },
+    {
+      "path": "mods/CreativeCore_NEOFORGE_v2.13.54_mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/v8QrwctR/CreativeCore_NEOFORGE_v2.13.54_mc1.21.1.jar",
+      "sha256": "fcfe3efb65f98d6ff5c9bbc3b4db69ef7971797d2c656d5e607238d48ba07239",
+      "size": 1237192,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/OsZiaDHq"
+    },
+    {
+      "path": "mods/cupboard-1.21.1-4.2.jar",
+      "url": "https://edge.forgecdn.net/files/8889/050/cupboard-1.21.1-4.2.jar",
+      "sha256": "5162922647fe07c7b9f446870915b57ddd0ae9dcf56b243611130fea30f2f77a",
+      "size": 30517,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar",
+      "sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+      "size": 410690,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/vvuO3ImH"
+    },
+    {
+      "path": "mods/divinerpg-1.10.10.jar",
+      "url": "https://cdn.modrinth.com/data/F3kLpGw6/versions/M9cHTouB/divinerpg-1.10.10.jar",
+      "sha256": "3ffc8939ab335fa1613a7aca52faadb206f85ba44898fd69e61b1a8a0042f0ba",
+      "size": 63238949,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/F3kLpGw6"
+    },
+    {
+      "path": "mods/dungeons-and-taverns-v4.4.4 [NeoForge].jar",
+      "url": "https://cdn.modrinth.com/data/tpehi7ww/versions/BYUUUeZA/dungeons-and-taverns-v4.4.4.jar",
+      "sha256": "1db28e89e0cb76aebe9e40955d1866e8ac1779575d15c2a1e250ac804a762d05",
+      "size": 24859622,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/tpehi7ww"
+    },
+    {
+      "path": "mods/durabilitytooltip-1.2.0-neoforge-mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/smUP7V3r/versions/lVrBx0o4/durabilitytooltip-1.2.0-neoforge-mc1.21.jar",
+      "sha256": "db7fe3561c81f36715306c16b9b79539c9f207482226f10f60210ef9d21a7e7e",
+      "size": 20821,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/smUP7V3r"
+    },
+    {
+      "path": "mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/T238FZpQ/dynamic-fps-3.11.4%2Bminecraft-1.21.0-neoforge.jar",
+      "sha256": "78cb67c9faeff5d1cb4da48d41e48ecc47baddaaec0f792e6edc8207aee0ab8e",
+      "size": 220193,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/LQ3K71Q1"
+    },
+    {
+      "path": "mods/embeddium-1.0.15+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/J7b96IEd/embeddium-1.0.15%2Bmc1.21.1.jar",
+      "sha256": "3aac4c4c6e82d78d8dda4c611d68c672d1061b42bb6954331e3c2e7f14c451e1",
+      "size": 1048745,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/sk9rgfiA"
+    },
+    {
+      "path": "mods/enchdesc-neoforge-1.21.1-21.1.11.jar",
+      "url": "https://cdn.modrinth.com/data/UVtY3ZAC/versions/IktklYWh/enchdesc-neoforge-1.21.1-21.1.11.jar",
+      "sha256": "868d3eab3305d96dd3ecf510d18a7aa7444e2aea168695cf4aff23a96bec975f",
+      "size": 82648,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/UVtY3ZAC"
+    },
+    {
+      "path": "mods/entity_model_features-3.3.12-1.21-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/197m3VoU/entity_model_features-3.3.12-1.21-neoforge.jar",
+      "sha256": "3ba0bf7b487660920d12cc0ff6cb5de1763f024a080fe0cd7d64e1c8e0f7f190",
+      "size": 656382,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/4I1XuqiY"
+    },
+    {
+      "path": "mods/entity_texture_features-7.2.7-1.21-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/1DVPB3a4/entity_texture_features-7.2.7-1.21-neoforge.jar",
+      "sha256": "6e4b1870d59ef6e337961c12a93760b05900e1e51c97def7953a4c5a551153ee",
+      "size": 811876,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/BVzZfTc1"
+    },
+    {
+      "path": "mods/entityculling-neoforge-1.11.3-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/eieYbWYb/entityculling-neoforge-1.11.3-mc1.21.1.jar",
+      "sha256": "fa73ac70a3766568203b730a1573b4b54d88fb48dff4a33d8c4a80be9b8d17d5",
+      "size": 1510075,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/NNAgCjsB"
+    },
+    {
+      "path": "mods/explosiveenhancement-neoforge-1.21.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/r0camchr/versions/GYn7YRXz/explosiveenhancement-neoforge-1.21.1-1.2.0.jar",
+      "sha256": "ec01cb0effac5bd0e11f7c819b7202db80e9e80dc27abbb5c0f9192f2ffa0ea8",
+      "size": 96211,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/r0camchr"
+    },
+    {
+      "path": "mods/FallingTree-1.21.1-1.21.1.11.jar",
+      "url": "https://mediafilez.forgecdn.net/files/6835/168/FallingTree-1.21.1-1.21.1.11.jar",
+      "sha256": "70ee147602d2239e7a093e166fdf0c0abcef959d5d457c0f8f3669ef9b483dc4",
+      "size": 496356,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/ferritecore-7.0.3-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar",
+      "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
+      "size": 121559,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/uXXizFIs"
+    },
+    {
+      "path": "mods/ftb-library-neoforge-2101.1.39.jar",
+      "url": "https://mediafilez.forgecdn.net/files/9350/706/ftb-library-neoforge-2101.1.39.jar",
+      "sha256": "ca64bd1b5f335406900f74eeafacea5a3580a3933d61de6b6600a64eb12a9a95",
+      "size": 1477833,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/ftb-quests-neoforge-2101.1.38.jar",
+      "url": "https://mediafilez.forgecdn.net/files/9405/148/ftb-quests-neoforge-2101.1.38.jar",
+      "sha256": "3752657a82c69b0a80c034700df86f1a3d7c5f3e3aad814b5af748b9082a834b",
+      "size": 1635517,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/ftb-teams-neoforge-2101.1.12.jar",
+      "url": "https://edge.forgecdn.net/files/9434/081/ftb-teams-neoforge-2101.1.12.jar",
+      "sha256": "b3f33436070b7ae4a706280561f1d2f1d1eb1a089cb13ec9851e99646165aed2",
+      "size": 308430,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/fzzy_config-0.7.7+fix1+1.21+neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/jRuOkBAG/fzzy_config-0.7.7%2Bfix1%2B1.21%2Bneoforge.jar",
+      "sha256": "414782aba00502349da192c1affcd4cbaf653119ec26605453f1b0690b3f8cc5",
+      "size": 2392720,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/hYykXjDp"
+    },
+    {
+      "path": "mods/geckolib-neoforge-1.21.1-4.9.3.jar",
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/Grwn5rUB/geckolib-neoforge-1.21.1-4.9.3.jar",
+      "sha256": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+      "size": 634531,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/8BmcQJ2H"
+    },
+    {
+      "path": "mods/globalpacks-neoforge-1.21.1-21.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/NRLPy2mk/versions/FPcUOp35/globalpacks-neoforge-1.21.1-21.0.6.jar",
+      "sha256": "598781933726c596ac95a4dc960861af0746d5713a12fb8a05d4b8cef45ec48d",
+      "size": 27239,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/NRLPy2mk"
+    },
+    {
+      "path": "mods/guardvillagers-2.4.12-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/H1sntfo8/versions/JyXugpy2/guardvillagers-2.4.12-1.21.1.jar",
+      "sha256": "aab03d59216bd931a05434b2527e0d5b7641793bd0178a9958100579c4f11407",
+      "size": 283407,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/H1sntfo8"
+    },
+    {
+      "path": "mods/Iceberg-1.21.1-neoforge-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/5faXoLqX/versions/IMssx9du/Iceberg-1.21.1-neoforge-1.3.2.jar",
+      "sha256": "0d620c975619b04110b94a73d5b42d252563ff59c1eae9d21ab2ee7e38460a3c",
+      "size": 213853,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/5faXoLqX"
+    },
+    {
+      "path": "mods/ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/EJzmEPZV/ImmediatelyFast-NeoForge-1.6.15%2B1.21.1.jar",
+      "sha256": "7d7b1d7b9f71d5303e42b2fa45f222a5ab06e0ef5982abb6da5dd9cc449b3702",
+      "size": 368896,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/5ZwdcRci"
+    },
+    {
+      "path": "mods/InventoryParticles-3.2.0%2B1.21.1%2Bneoforge.jar",
+      "url": "https://cdn.modrinth.com/data/XYnKrsxH/versions/tIeIGFCs/InventoryParticles-3.2.0%2B1.21.1%2Bneoforge.jar",
+      "sha256": "2e2b7f841b9765594615b664b2b28dd5cd4219d376538e6b7325b133ead9603b",
+      "size": 1677419,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/XYnKrsxH"
+    },
+    {
+      "path": "mods/inventorysorter-1.21.1-24.0.24.jar",
+      "url": "https://mediafilez.forgecdn.net/files/7188/660/inventorysorter-1.21.1-24.0.24.jar",
+      "sha256": "6fde143f12b608aec80f590f16ff91787043796dee6642f46f82e4df029c6544",
+      "size": 53363,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar",
+      "sha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314",
+      "size": 2540723,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/YL57xq9U"
+    },
+    {
+      "path": "mods/ironchest-1.21-neoforge-16.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/P3iIrPH3/versions/Res1o1zf/ironchest-1.21-neoforge-16.0.7.jar",
+      "sha256": "dae66a38a33c2adac6ca0b7a4fbf4b365ba37a6a1f7a10961028617965c1fcaf",
+      "size": 305975,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/P3iIrPH3"
+    },
+    {
+      "path": "mods/Jade-1.21.1-NeoForge-15.10.6.jar",
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/eYz2YBGT/Jade-1.21.1-NeoForge-15.10.6.jar",
+      "sha256": "276f1f65a20d04f536989c4f311949d770b52c440c23c2b904a08860f3c93810",
+      "size": 726853,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/nvQzSEkH"
+    },
+    {
+      "path": "mods/jei-1.21.1-neoforge-19.70.0.469.jar",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/1vC6z8wV/jei-1.21.1-neoforge-19.70.0.469.jar",
+      "sha256": "9ab82d9bdbc8d9a08b80bc2023e1d886f6335b92f937d3afac878c9ea995dc33",
+      "size": 4784333,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/u6dRKJwZ"
+    },
+    {
+      "path": "mods/jeioptimizations-1.0.4+1.21.1-neoforge.jar",
+      "url": "https://edge.forgecdn.net/files/9344/147/jeioptimizations-1.0.4%2B1.21.1-neoforge.jar",
+      "sha256": "72dd30e73900af364bbdc1a550b4bed249e4319711c884836f166de91eebce57",
+      "size": 179902,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/journeymap-neoforge-1.21.1-6.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/lfHFW1mp/versions/CtFE7hwT/journeymap-neoforge-1.21.1-6.0.9.jar",
+      "sha256": "9bd7734542233d5281750572f17a9258449e826650c081e9a67dc426262c2fde",
+      "size": 4320499,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/lfHFW1mp"
+    },
+    {
+      "path": "mods/justzoom_neoforge_3.1.0_MC_1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/iAiqcykM/versions/Ha3713r0/justzoom_neoforge_3.1.0_MC_1.21.1.jar",
+      "sha256": "636885577b2ec47b10abeb62d0f35d5b2267c88ed5c43ed7ea9b3955858cb314",
+      "size": 168109,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/iAiqcykM"
+    },
+    {
+      "path": "mods/keybindsearch-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/huLkt7lm/versions/aZLGKfBG/keybindsearch-1.0.0.jar",
+      "sha256": "140659a2216eaa5bd417eb1b1570040fcb87649d151e2b9790b641b2c345f6e9",
+      "size": 18383,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/huLkt7lm"
+    },
+    {
+      "path": "mods/konkrete_neoforge_1.9.9_MC_1.21.jar",
+      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/stJDU839/konkrete_neoforge_1.9.9_MC_1.21.jar",
+      "sha256": "791c5538751dd3015ef3a2ce92d98719e1a28a48ebbd817b78506771256654cd",
+      "size": 618842,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/J81TRJWm"
+    },
+    {
+      "path": "mods/kotlinforforge-5.12.0-all.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8335/665/kotlinforforge-5.12.0-all.jar",
+      "sha256": "095aed94f21b4e55895b21ea957750ae3ab829fbcfc6d3c66a3489f5f1128d46",
+      "size": 7279276,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/LegendaryTooltips-1.21.1-neoforge-1.5.5.jar",
+      "url": "https://cdn.modrinth.com/data/atHH8NyV/versions/BabRJO04/LegendaryTooltips-1.21.1-neoforge-1.5.5.jar",
+      "sha256": "8ba2bc2cb894e48d8e7520d41c72ef7f429659c3ee58b029f4899c760b958493",
+      "size": 81808,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/atHH8NyV"
+    },
+    {
+      "path": "mods/letmedespawn-neoforge-1.21.1-1.26.11.1.jar",
+      "url": "https://cdn.modrinth.com/data/vE2FN5qn/versions/83U4ROV4/letmedespawn-neoforge-1.21.1-1.26.11.1.jar",
+      "sha256": "94e5e9acd0092ae3decb95204df0b06054e68351358dce4b5ff38cfaa2b055d3",
+      "size": 29590,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/vE2FN5qn"
+    },
+    {
+      "path": "mods/lithium-neoforge-0.15.4+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/DDUrRVCA/lithium-neoforge-0.15.4%2Bmc1.21.1.jar",
+      "sha256": "488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757",
+      "size": 774220,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/gvQqBUqZ"
+    },
+    {
+      "path": "mods/lithostitched-1.8.1-neoforge-21.1.jar",
+      "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/cZu4cHY3/lithostitched-1.8.1-neoforge-21.1.jar",
+      "sha256": "e0da669fa5facc61a09b9b7bae21b322993de1fcd1eb05787adffb7309598cca",
+      "size": 1023751,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/XaDC71GB"
+    },
+    {
+      "path": "mods/lootintegrations-1.21.1-4.7.jar",
+      "url": "https://mediafilez.forgecdn.net/files/6640/970/lootintegrations-1.21.1-4.7.jar",
+      "sha256": "1de9e6352f643f2850dce3e6b7aa8274902798a2243ea9e494fe13aabaa90d2c",
+      "size": 36966,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/lootintegrations_ctov-1.6.jar",
+      "url": "https://edge.forgecdn.net/files/8922/088/lootintegrations_ctov-1.6.jar",
+      "sha256": "9e134e91467343084d315e37bae086bfc147ded83cd6b5008b51b678ca789d92",
+      "size": 4839,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/lootintegrations_dnt-2.7.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8914/350/lootintegrations_dnt-2.7.jar",
+      "sha256": "88300912d40eb2f822f924ab67958e93a30b1df8b1780ab2cfb3299706bcd1ab",
+      "size": 7705,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/lootintegrations_medievalbuildings-1.5.jar",
+      "url": "https://mediafilez.forgecdn.net/files/7920/461/lootintegrations_medievalbuildings-1.5.jar",
+      "sha256": "96830522f41081604b7046b421c78c6565d38fa1644e4af6bb45dd7e78f46af1",
+      "size": 6244,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/lootintegrations_yungs-1.6.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8323/152/lootintegrations_yungs-1.6.jar",
+      "sha256": "15e0b2b1a6e538e2e4f14c1fa9fd272e3ea45d74b0e95d50d3f707a7cef9b9be",
+      "size": 5991,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/medieval_buildings-1.21.1-1.1.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/sc9lpPiU/versions/kZ7HAN7p/medieval_buildings-1.21.1-1.1.1-neoforge.jar",
+      "sha256": "367422cf0768bcdcf3d8ce21ce7c123e8d87022c11085f66f671fef1abc37102",
+      "size": 214623,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/sc9lpPiU"
+    },
+    {
+      "path": "mods/medieval_buildings_end_edition-1.21.1-1.0.4-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/bq6nqeOx/versions/wn6LL8i1/medieval_buildings_end_edition-1.21.1-1.0.4-neoforge.jar",
+      "sha256": "d11b62c633c739426c6b5812f6b1162265323e981a75ee2517b51ff78e7c20d4",
+      "size": 438618,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/bq6nqeOx"
+    },
+    {
+      "path": "mods/medieval_buildings_nether_edition-1.21.1-1.0.2-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/9zKI9xOD/versions/70C9QEm8/medieval_buildings_nether_edition-1.21.1-1.0.2-neoforge.jar",
+      "sha256": "6aae01f723d6e0fc0b233ee038d7ca1ee983b1d609306c05f128e3642581cd91",
+      "size": 538109,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/9zKI9xOD"
+    },
+    {
+      "path": "mods/mezz_config-1.21.1-neoforge-0.7.1-standalone.jar",
+      "url": "https://cdn.modrinth.com/data/7tEfOcA7/versions/V6oWFnxW/mezz_config-1.21.1-neoforge-0.7.1-standalone.jar",
+      "sha256": "c42510938584eda0aae134003e367d745fd32ceac1836221cecac4cbc7bfa3a1",
+      "size": 347249,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/7tEfOcA7"
+    },
+    {
+      "path": "mods/midnightlib-neoforge-1.10.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/codAaoxh/versions/vcVnfiCM/midnightlib-neoforge-1.10.0%2B1.21.1.jar",
+      "sha256": "16ddfdcccd3cb6b18bb20e50b3ccf1c93e1b43098ac0b547af8ff3dc42cc05a4",
+      "size": 64794,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/codAaoxh"
+    },
+    {
+      "path": "mods/mobs_of_mythology-neoforge-1.21.1-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/avrKhvsK/versions/rLXvf7Aw/mobs_of_mythology-neoforge-1.21.1-3.0.0.jar",
+      "sha256": "b4e1ab399e79803b23b584f8ee7e6a238b9e44f3e94c93345f1175027d91326d",
+      "size": 1085666,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/avrKhvsK"
+    },
+    {
+      "path": "mods/modernfix-neoforge-5.27.27+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/ZDZENbHH/modernfix-neoforge-5.27.27%2Bmc1.21.1.jar",
+      "sha256": "7010aae2e837122fe8dabd5932358e2ba334fcbc62ca6530cb1cb00402d2c63b",
+      "size": 614138,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/nmDcB62a"
+    },
+    {
+      "path": "mods/monocle-0.2.4.ms.jar",
+      "url": "https://cdn.modrinth.com/data/apRGdwku/versions/UVdNs1u9/monocle-0.2.4.ms.jar",
+      "sha256": "0d8a95c8de95e8d8238e56b97813a9fd5e880e2f65abfce12ed96e22329ab514",
+      "size": 568769,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/apRGdwku"
+    },
+    {
+      "path": "mods/moreculling-neoforge-1.21.1-1.0.11.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/ucyxnpWe/moreculling-neoforge-1.21.1-1.0.11.jar",
+      "sha256": "fbde3e7f2d0489c465c6b9f1642e53b9ef9b07126b505ab0193fa8679f0466e1",
+      "size": 337255,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/51shyZVL"
+    },
+    {
+      "path": "mods/MossyLib-1.6.0%2B1.21.1%2Bneoforge.jar",
+      "url": "https://cdn.modrinth.com/data/ffLDUGbm/versions/r1b2ODLf/MossyLib-1.6.0%2B1.21.1%2Bneoforge.jar",
+      "sha256": "7d19659babdb11979819b9e247587939dfe314cb9b837b201e5bd0e6cc6ca242",
+      "size": 179468,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/ffLDUGbm"
+    },
+    {
+      "path": "mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b",
+      "size": 73938,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/aC3cM3Vq"
+    },
+    {
+      "path": "mods/mru-1.0.41%2B1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/SNVQ2c0g/versions/Kpai1paZ/mru-1.0.41%2B1.21.1-neoforge.jar",
+      "sha256": "245ebec0b410fb1a7456bb0cd970ea015fb7c243a0f45a4d79d655dc01bb6d89",
+      "size": 151764,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/SNVQ2c0g"
+    },
+    {
+      "path": "mods/naturalist-2.0.7-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/F8BQNPWX/versions/9Yn8ig4c/naturalist-2.0.7-neoforge-1.21.1.jar",
+      "sha256": "2740593710eba0a917f862e535f3e2ef06c39ccdd6441986da02f9dd4394f03a",
+      "size": 11347884,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/F8BQNPWX"
+    },
+    {
+      "path": "mods/neoforge-ctov-1.21.1-3.6.4.jar",
+      "url": "https://cdn.modrinth.com/data/fgmhI8kH/versions/hJfyJvWt/%5Bneoforge%5Dctov-1.21.1-3.6.4.jar",
+      "sha256": "b06df0653db66fb697e0a6a0752c58964c8a873008c57cc96f06e30a1045229f",
+      "size": 7239618,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/fgmhI8kH"
+    },
+    {
+      "path": "mods/noisium-neoforge-2.3.0+mc1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/KuNKN7d2/versions/nJBE6tif/noisium-neoforge-2.3.0%2Bmc1.21-1.21.1.jar",
+      "sha256": "e95209d593bc00d7c5de94f746ffd1dfbfa70ac8fbe938393ef930d00416109c",
+      "size": 60296,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/KuNKN7d2"
+    },
+    {
+      "path": "mods/OctoLib-NEOFORGE-0.6.3-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/RH2KUdKJ/versions/5W0Tr3KB/OctoLib-NEOFORGE-0.6.3%2B1.21.jar",
+      "sha256": "b9356f308afd66c8b32fcf7914dc4f7b9403f910683ad0544e038c732f9177bb",
+      "size": 544385,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/RH2KUdKJ"
+    },
+    {
+      "path": "mods/Patchouli-1.21.1-93-NEOFORGE.jar",
+      "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/BIogJv2D/Patchouli-1.21.1-93-NEOFORGE.jar",
+      "sha256": "959af52ed6640c316c3a8469203420be4aeea11ad6603890ba83bf48f5d9f993",
+      "size": 646777,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/nU0bVIaL"
+    },
+    {
+      "path": "mods/Placebo-1.21.1-9.9.4.jar",
+      "url": "https://cdn.modrinth.com/data/tCkE8p2N/versions/B5zbSVlT/Placebo-1.21.1-9.9.4.jar",
+      "sha256": "d8952c019d6e54befe37155bc9876985ec57bf73dd33872115c7a65ac6bceba0",
+      "size": 326063,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/tCkE8p2N"
+    },
+    {
+      "path": "mods/player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/HJZB6bmA/player-animation-lib-forge-2.0.4%2B1.21.1.jar",
+      "sha256": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+      "size": 203149,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/gedNE4y2"
+    },
+    {
+      "path": "mods/PlayerAnimationLibNeoforge-1.1.6%2Bmc.1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ha1mEyJS/versions/yjxtkvnD/PlayerAnimationLibNeoforge-1.1.6%2Bmc.1.21.1.jar",
+      "sha256": "e41ee06000fc95444a482018ec24b3f1e79eb111ca6b8ca119e61ceabf9136c5",
+      "size": 1156673,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/ha1mEyJS"
+    },
+    {
+      "path": "mods/prickle-neoforge-1.21.1-21.1.11.jar",
+      "url": "https://cdn.modrinth.com/data/aaRl8GiW/versions/EE1FHDyD/prickle-neoforge-1.21.1-21.1.11.jar",
+      "sha256": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167",
+      "size": 84812,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/aaRl8GiW"
+    },
+    {
+      "path": "mods/Prism-1.21.1-neoforge-1.0.11.jar",
+      "url": "https://cdn.modrinth.com/data/1OE8wbN0/versions/kMcz2lDj/Prism-1.21.1-neoforge-1.0.11.jar",
+      "sha256": "b6a1e585416c48d7d9fa53fc12c67122ad1f3a6965202b51d4e2c643ffca61c2",
+      "size": 62031,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/1OE8wbN0"
+    },
+    {
+      "path": "mods/punchy-3.2a-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/8aoMKplv/versions/Rl9eFcP6/punchy-3.2a-neoforge-1.21.1.jar",
+      "sha256": "a2f9f978dafd7f12dc6859f7c20f8b46c3753ad31a27dc786961cb652b5ab060",
+      "size": 4082306,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/8aoMKplv"
+    },
+    {
+      "path": "mods/punchy_epicfight_bettercombat_compat-neoforge-1.21.1-1.1.0.jar",
+      "url": "https://mediafilez.forgecdn.net/files/9082/305/punchy_epicfight_bettercombat_compat-neoforge-1.21.1-1.1.0.jar",
+      "sha256": "1d531469f976cf01d51a88b4b97ed20557ee372445fd3d916f541e0fd77a0f65",
+      "size": 12230,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/Quick-Skin-NeoForge-1.21.1-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zAIE84Ch/versions/BCgTWH2B/Quick%20Skin%20-%20NeoForge%20-%201.21.1-4.0.0.jar",
+      "sha256": "0413c8d3f9bade18fe78cecaa98b621d26e43bd7f57e70dd26f848eabf7c3bb5",
+      "size": 5727332,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/zAIE84Ch"
+    },
+    {
+      "path": "mods/relics-1.21.1-0.12.11.jar",
+      "url": "https://cdn.modrinth.com/data/OCJRPujW/versions/vbHeJsI4/relics-1.21.1-0.12.11.jar",
+      "sha256": "74cd000a5f3c9a97ad3a1a02820ec1813fed0b2b75aedf770e1b11dd909f5c0a",
+      "size": 5096604,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/OCJRPujW"
+    },
+    {
+      "path": "mods/relics_artifacts-neoforge-1.0.6%2Bmc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Ny4hiPCS/versions/VOeRUMYE/relics_artifacts-neoforge-1.0.6%2Bmc1.21.1.jar",
+      "sha256": "1d0620067c85b045c7d50d283b2aa6cb97322c0aa4bc5533a8511a125cb79618",
+      "size": 5730275,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/Ny4hiPCS"
+    },
+    {
+      "path": "mods/rubidium-extra-0.5.7e+mc1.21-build.132.jar",
+      "url": "https://cdn.modrinth.com/data/oY2B1pjg/versions/uOgJjIFf/rubidium-extra-0.5.7e%2Bmc1.21-build.132.jar",
+      "sha256": "767d649a73832d84ea9c60424b1726e8cb73f527ea09f073cb5ed0a91900f235",
+      "size": 383418,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/oY2B1pjg"
+    },
+    {
+      "path": "mods/ScalableLux-neoforge-0.3.0-alpha.0.8-all.jar",
+      "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/9KuFoPhC/ScalableLux-neoforge-0.3.0-alpha.0.8-all.jar",
+      "sha256": "f2bbe8646a6b813e9af10a9a381550e71412c7df2ea9dbcdfd77bc66c669a92a",
+      "size": 197423,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/Ps1zyz6x"
+    },
+    {
+      "path": "mods/shulkerboxtooltip-neoforge-5.1.9%2B1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/2M01OLQq/versions/IuqNIoAi/shulkerboxtooltip-neoforge-5.1.9%2B1.21.1.jar",
+      "sha256": "36c6ab0fd4b6e684e2d554c67d783067dced9906cfd2b75cae56dd9ede53407a",
+      "size": 381204,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/2M01OLQq"
+    },
+    {
+      "path": "mods/simplyswords-neoforge-1.70.2-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/bK3Ubu9p/versions/nS0Yahr5/simplyswords-neoforge-1.70.2-1.21.1.jar",
+      "sha256": "5e75bd66ea489079d60c9c1ed98762550fbc0bee88cd7af399f17bbeb56608c3",
+      "size": 16282660,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/bK3Ubu9p"
+    },
+    {
+      "path": "mods/SimplyTooltips-neoforge-0.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/Zb6dytvm/SimplyTooltips-neoforge-0.1.5.jar",
+      "sha256": "fdac367da1c5243ac5225f00f831b786817452ee9fa6a7f4acd99ec819b0f2b7",
+      "size": 5512986,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/6avVoBVB"
+    },
+    {
+      "path": "mods/skilltree-1.21.1-1.0.3.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8991/286/skilltree-1.21.1-1.0.3.jar",
+      "sha256": "7642ceeaef4cd80ce695743d132a9730ee0b5e569ea8f609c50274a0cfee9ace",
+      "size": 1992781,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
+      "url": "https://cdn.modrinth.com/data/PuyPazRT/versions/O5EpeqI3/SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
+      "sha256": "68036561cc5511766d54cc0deabc3fc3a5e68f9e3db2478f2574ec82b494374b",
+      "size": 391053,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/PuyPazRT"
+    },
+    {
+      "path": "mods/sound-physics-remastered-neoforge-1.21.1-1.5.2.jar",
+      "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/85fA7L1W/sound-physics-remastered-neoforge-1.21.1-1.5.2.jar",
+      "sha256": "108cac1fe49d0dc210183d69787db5a359cdc03c5b580eb8ab0208be7f072982",
+      "size": 204230,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/qyVF9oeo"
+    },
+    {
+      "path": "mods/sounds-2.4.22%2Blts%2B1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/ZouiUX7t/versions/kti7i9SG/sounds-2.4.22%2Blts%2B1.21.1-neoforge.jar",
+      "sha256": "d3bda0a7a5b1f267747da182e788139da380f625eaf96a5c2a8fa5bcb8d908b7",
+      "size": 8732437,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/ZouiUX7t"
+    },
+    {
+      "path": "mods/spark-1.10.124-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/v5qtqRQi/spark-1.10.124-neoforge.jar",
+      "sha256": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db",
+      "size": 3642581,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/l6YH9Als"
+    },
+    {
+      "path": "mods/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/qKL9jM75/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+      "sha256": "d2ba7b839a2268e4e223457e813d11aa2476c3bf708a7bba691d8fc851778a4b",
+      "size": 207514,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/LN9BxssP"
+    },
+    {
+      "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+      "url": "https://mediafilez.forgecdn.net/files/6054/947/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+      "sha256": "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8",
+      "size": 120364,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/Terralith_1.21.x_v2.6.2.jar",
+      "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/IY93YaEe/Terralith_1.21.1_v2.6.2_Neoforge.jar",
+      "sha256": "d38bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546",
+      "size": 2814865,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/8oi3bsk5"
+    },
+    {
+      "path": "mods/thaumaturge-1.21.1-NeoForge-1.1.0.jar",
+      "url": "https://mediafilez.forgecdn.net/files/9452/543/thaumaturge-1.21.1-NeoForge-1.1.0.jar",
+      "sha256": "2671390136fad5ac9abd36797cb0a5a938967a5c32399442589bb7720d463900",
+      "size": 33840402,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/thaumaturgeadditions-1.2.0-NeoForge-1.21.1.jar",
+      "url": "https://mediafilez.forgecdn.net/files/9507/699/thaumaturgeadditions-1.2.0-NeoForge-1.21.1.jar",
+      "sha256": "071c5e73d05d923b50e873887157577b512a72311281792cea9ce5118217a541",
+      "size": 255998,
+      "policy": "managed",
+      "source": "CurseForge official CDN"
+    },
+    {
+      "path": "mods/travelersbackpack-neoforge-1.21.1-10.1.41.jar",
+      "url": "https://cdn.modrinth.com/data/rlloIFEV/versions/JrOhWsXk/travelersbackpack-neoforge-1.21.1-10.1.41.jar",
+      "sha256": "c0fabf0ff28654f23a5a11697f2222377b5df2eb870deddd646e1f911ce0ffd1",
+      "size": 1444892,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/rlloIFEV"
+    },
+    {
+      "path": "mods/yet_another_config_lib_v3-3.8.2%2B1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/7TVdVtxF/yet_another_config_lib_v3-3.8.2%2B1.21.1-neoforge.jar",
+      "sha256": "b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f",
+      "size": 1118651,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/1eAoo2KR"
+    },
+    {
+      "path": "mods/YungsApi-1.21.1-NeoForge-5.1.9.jar",
+      "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/2prKITKh/YungsApi-1.21.1-NeoForge-5.1.9.jar",
+      "sha256": "375e0b2f988ab4f5bde182166c0f0b102377adc8f823660c24ade08b0b3cde56",
+      "size": 413763,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/Ua7DFN59"
+    },
+    {
+      "path": "mods/YungsBetterCaves-1.21.1-NeoForge-3.1.6.jar",
+      "url": "https://cdn.modrinth.com/data/Dfu00ggU/versions/Feo6YOjN/YungsBetterCaves-1.21.1-NeoForge-3.1.6.jar",
+      "sha256": "299cde08b3a87818b7d25ea00c63ff8e6deb2f21b179d6f63ad86b9ba004a5a3",
+      "size": 400316,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/Dfu00ggU"
+    },
+    {
+      "path": "mods/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/XNlO7sBv/versions/GQ9iNWkI/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+      "sha256": "2c3191ad447092cc7873a06e92f16bd3e2ff9dc31e93268b8893d06dd89e1fd6",
+      "size": 905839,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/XNlO7sBv"
+    },
+    {
+      "path": "mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/o1C1Dkj5/versions/D6aZn0Em/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+      "sha256": "61816c3b7c9d92c6b44f93dce87ceb0a22827f20285d5d9c4d10d519d734de04",
+      "size": 782160,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/o1C1Dkj5"
+    },
+    {
+      "path": "mods/YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/2BwBOmBQ/versions/I52NZ1qK/YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar",
+      "sha256": "8005f1ea798d09fc05dad07a21ed1f393a523a718197cdbd37b1ce6d9a17e4a4",
+      "size": 398130,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/2BwBOmBQ"
+    },
+    {
+      "path": "mods/YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/z9Ve58Ih/versions/P00i2hJn/YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
+      "sha256": "a0d57b78c7a1891796f342b1f09c214bc27bedf0a3a894f029dfdb2db9f813d0",
+      "size": 795839,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/z9Ve58Ih"
+    },
+    {
+      "path": "mods/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/HjmxVlSr/versions/Go3nbneL/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+      "sha256": "5625930dfb3240820d6e4ecf55fff0c39f70ce782fad117a4d418251184c7be0",
+      "size": 493967,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/HjmxVlSr"
+    },
+    {
+      "path": "mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/Z2mXHnxP/versions/iopJiJQp/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+      "sha256": "5450a64a7036237f449496837e08f3e5b3aa1d7974a10df43944172def75d8ff",
+      "size": 609639,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/Z2mXHnxP"
+    },
+    {
+      "path": "mods/YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/3dT9sgt4/versions/yFjEcj2g/YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
+      "sha256": "cdcf8fe0e08c75261048d43c6ed4898972d23e096dd04a2524c136f06416ab02",
+      "size": 1025571,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/3dT9sgt4"
+    },
+    {
+      "path": "mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/kidLKymU/versions/8U0dIfSM/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+      "sha256": "a9cab2fc01538368862365691f7d215309801aed0b390351681b6b60a1db7b58",
+      "size": 461244,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/kidLKymU"
+    },
+    {
+      "path": "mods/YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/t5FRdP87/versions/AvedwcIe/YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar",
+      "sha256": "888b1e6d1ada21982a75abfb4afb040c9bc2cc68777ec5fcd1199b978e3d4f8d",
+      "size": 174789,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/t5FRdP87"
+    },
+    {
+      "path": "mods/YungsBridges-1.21.1-NeoForge-5.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Ht4BfYp6/versions/urkCzBf6/YungsBridges-1.21.1-NeoForge-5.1.1.jar",
+      "sha256": "bf93a85422a6b457358c3b56352641a97ec09cc37dec18b2cedcac2bd1ff9bec",
+      "size": 136820,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/Ht4BfYp6"
+    },
+    {
+      "path": "mods/YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/cs7iGVq1/versions/HYGqXWqQ/YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar",
+      "sha256": "7585587e5cb7859e26189c6ec0a5b829c5c228f095e4e843fa3add61f817dd20",
+      "size": 13006621,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/cs7iGVq1"
+    },
+    {
+      "path": "mods/YungsExtras-1.21.1-NeoForge-5.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZYgyPyfq/versions/N2EpMhR7/YungsExtras-1.21.1-NeoForge-5.1.1.jar",
+      "sha256": "0cd26474e514f5dc3114aaf5ec7e049bcd285f0c5db191bb45223193f35df70d",
+      "size": 198183,
+      "policy": "managed",
+      "source": "https://modrinth.com/mod/ZYgyPyfq"
+    },
+    {
+      "path": "resourcepacks/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+      "url": "https://mediafilez.forgecdn.net/files/6105/672/-1.21.2%20Fresh%20Moves%20v3.1%20%28With%20Animated%20Eyes%29.zip",
+      "sha256": "c433f3d831e86faa956836bf327ca00151bd813d1a8ab36aa064d518a58790f7",
+      "size": 321871,
+      "policy": "managed",
+      "source": "CurseForge official original (unmodified)"
+    },
+    {
+      "path": "resourcepacks/BoostyMagicRPG_Campaign_resources.zip",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/9b6acf386018a454e4c26689a546e83776825970e81ce7c9aa975119f9ee729b",
+      "sha256": "9b6acf386018a454e4c26689a546e83776825970e81ce7c9aa975119f9ee729b",
+      "size": 179398,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "resourcepacks/BoostyMagicRPG_Russian_UI_0.1.0.zip",
+      "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/pack-0.3.4/871c8d88ddbf6feaa2d5793fa02c9b9d639af16fb22da6abb4cb931802b66995",
+      "sha256": "871c8d88ddbf6feaa2d5793fa02c9b9d639af16fb22da6abb4cb931802b66995",
+      "size": 17653,
+      "policy": "managed",
+      "source": "Arcane Genesis project; original project files and configuration"
+    },
+    {
+      "path": "resourcepacks/FreshAnimations_v1.11.2_1.20.zip",
+      "url": "https://edge.forgecdn.net/files/9394/023/FreshAnimations_v1.11.2_1.20.zip",
+      "sha256": "3a36e09638aa72f3b6e36fcfbcb4f9a3ba31a03b09e777466034bf75827c157e",
+      "size": 742790,
+      "policy": "managed",
+      "source": "CurseForge official original (unmodified)"
+    },
+    {
+      "path": "resourcepacks/Itsme64's smaller shield and totem.zip",
+      "url": "https://mediafilez.forgecdn.net/files/5430/472/Itsme64%27s%20smaller%20shield%20and%20totem.zip",
+      "sha256": "b4e171684c6867c341c08a1c7e46aec32cdb4b89b220430fe91b44b0d808c2f1",
+      "size": 4561,
+      "policy": "managed",
+      "source": "CurseForge official original (unmodified)"
+    },
+    {
+      "path": "resourcepacks/LowOnFire 1.21.3.zip",
+      "url": "https://mediafilez.forgecdn.net/files/5944/547/LowOnFire%201.21.3.zip",
+      "sha256": "55ab1c3595da0d8174efe28c2ef9a35e49997a371c67bb7664e841d26954dc15",
+      "size": 41582,
+      "policy": "managed",
+      "source": "CurseForge official original (unmodified)"
+    }
+  ]
+}
