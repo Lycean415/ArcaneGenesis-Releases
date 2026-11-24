@@ -1,0 +1,41 @@
+name: Attach verified launcher 0.4.1 update signature
+on:
+  push:
+    branches: [main]
+    paths:
+      - updates/0.4.1/launcher.json
+      - updates/0.4.1/launcher.json.sig
+      - .github/workflows/signatures-041.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: signatures-041
+  cancel-in-progress: false
+jobs:
+  attach:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Verify exact published installer and attach signature
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir .verify
+          gh release download launcher-0.4.1 --repo "$GITHUB_REPOSITORY" --pattern 'ArcaneGenesis-Setup-0.4.1.exe' --dir .verify
+          python3 - <<'PY'
+          import json,hashlib,pathlib
+          r=json.loads(pathlib.Path('updates/0.4.1/launcher.json').read_text(encoding='utf-8-sig'))
+          b=pathlib.Path('.verify/ArcaneGenesis-Setup-0.4.1.exe').read_bytes()
+          assert r['schema']==1 and r['version']=='0.4.1'
+          assert r['url']=='https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/launcher-0.4.1/ArcaneGenesis-Setup-0.4.1.exe'
+          assert len(b)==r['size'] and hashlib.sha256(b).hexdigest()==r['sha256']
+          PY
+          unzip -p releases/ArcaneGenesis-Launcher-Source-0.4.1.zip release-public.pem > .verify/public.pem
+          openssl dgst -sha256 -verify .verify/public.pem -signature updates/0.4.1/launcher.json.sig -sigopt rsa_padding_mode:pss -sigopt rsa_pss_saltlen:digest updates/0.4.1/launcher.json
+          gh release upload launcher-0.4.1 updates/0.4.1/launcher.json updates/0.4.1/launcher.json.sig --repo "$GITHUB_REPOSITORY"
+
