@@ -4,13 +4,13 @@
   "bundledFileReferences": 257,
   "packFiles": 384,
   "containsWorlds": false,
-  "launcherVersion": "0.4.1",
+  "launcherVersion": "0.4.2",
   "uniqueBundledObjects": 249,
   "containsPrivateAuditDocuments": false,
   "containsTestMods": false,
   "externalDownloads": 127,
   "sourceArchiveFiles": 290,
-  "sourceSha256": "0cda74c1243438d5829c13b10e217f24a0497d9a331b057c9b4c9001d4c68428",
+  "sourceSha256": "b324a1c7b02edb974aad0a2e381c31b515159f4ad74d34249087253f87f3be85",
   "packVersion": "0.3.4",
   "containsCredentials": false
 }

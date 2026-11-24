@@ -1,6 +1,6 @@
-# Установка Arcane Genesis 0.4.1
+# Установка Arcane Genesis 0.4.2
 
-1. Скачайте [ArcaneGenesis-Setup-0.4.1.exe](https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/launcher-0.4.1/ArcaneGenesis-Setup-0.4.1.exe). Контрольная сумма SHA256 находится рядом в релизе.
+1. Скачайте [ArcaneGenesis-Setup-0.4.2.exe](https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/launcher-0.4.2/ArcaneGenesis-Setup-0.4.2.exe). Контрольная сумма SHA256 находится рядом в релизе.
 2. Запустите установщик и выберите отдельную папку. При обновлении сначала закройте лаунчер и Minecraft.
 3. В лаунчере задайте ник локального профиля и нажмите «Установить» / «Играть». По умолчанию выделяется 7 ГБ памяти; настройте значение под свой ПК. Для сборки рекомендуется не менее 16 ГБ системной памяти.
 4. Дождитесь скачивания Java 21, Minecraft 1.21.1, NeoForge 21.1.265 и внешних модов. Интернет нужен при первой установке и обновлениях. Официальные файлы Minecraft не входят в установщик.
@@ -14,4 +14,5 @@
 Логи: runtime/bootstrap/neoforge-install.log, game/logs/launcher-error.log и game/logs/latest.log в выбранной папке. Не публикуйте учётные данные и личные журналы без проверки содержимого.
 
 Испытание на другом физическом Windows-ПК и нагрузка нескольких игроков остаются за владельцем проекта. Подробные результаты: TESTING.md.
+
 

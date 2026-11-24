@@ -1,7 +1,7 @@
 {
-  "schema": 1,
-  "version": "0.4.1",
-  "sha256": "94c368553c05f11c1a66ba8f4d430cae835af136dfac7b24c28cdfc02f4063e7",
-  "size": 80990720,
-  "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/launcher-0.4.1/ArcaneGenesis-Setup-0.4.1.exe"
+  "url": "https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/launcher-0.4.2/ArcaneGenesis-Setup-0.4.2.exe",
+  "sha256": "5c64acaef775f70e756990eef472a37a861340d2aad3b50305269c5f17b85ba1",
+  "size": 80991232,
+  "version": "0.4.2",
+  "schema": 1
 }

@@ -2,9 +2,9 @@
 
 Minecraft Java 1.21.1 · NeoForge 21.1.265 · Windows 10/11 x64.
 
-[Скачать установщик 0.4.1](https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/launcher-0.4.1/ArcaneGenesis-Setup-0.4.1.exe)
+[Скачать установщик 0.4.2](https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/launcher-0.4.2/ArcaneGenesis-Setup-0.4.2.exe)
 
-[Инструкция](INSTALL.md) · [Проверки и ограничения](TESTING.md) · [Публикация обновлений](PUBLISHING.md) · [Исходники 0.4.1](https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/launcher-0.4.1/ArcaneGenesis-Launcher-Source-0.4.1.zip)
+[Инструкция](INSTALL.md) · [Проверки и ограничения](TESTING.md) · [Публикация обновлений](PUBLISHING.md) · [Исходники 0.4.2](https://github.com/Lycean415/ArcaneGenesis-Releases/releases/download/launcher-0.4.2/ArcaneGenesis-Launcher-Source-0.4.2.zip)
 
 Лаунчер устанавливает всю сборку 0.3.4: четыре класса, существующую кампанию, собственные моды, датапаки, настройки и ресурсы. Java, Minecraft, NeoForge и внешние моды скачиваются из исходных HTTPS-источников. Для первой установки нужен интернет; файлы домашнего ПК автора не требуются. Prism не нужен.
 
@@ -15,4 +15,7 @@ Minecraft Java 1.21.1 · NeoForge 21.1.265 · Windows 10/11 x64.
 Отдельный физический чистый Windows-ПК, нагрузка нескольких игроков и полное прохождение не проверены. Установщик не имеет Authenticode; SHA256 прилагается к релизу. Локальный профиль не предоставляет лицензию Minecraft или официальную онлайн-сессию.
 
 В комплекте нет учётных данных, приватных ключей, миров, диагностических модов и приватных материалов аудита. Разработка выполнена для проекта с помощью Codex; лицензии сторонних компонентов сохраняются.
+
+
+В 0.4.2 устранено зависание при проверке Java и нажатии «Играть». Длительные проверки файлов выполняются в фоне, сохраняя отзывчивость интерфейса.
 
