@@ -1,0 +1,60 @@
+name: Build and publish Arcane Genesis 0.4.2
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/release-042.yml
+      - releases/ArcaneGenesis-Launcher-Source-0.4.2.zip
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: release-042
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Verify and unpack approved source
+        run: |
+          $ErrorActionPreference='Stop'
+          $archive='releases/ArcaneGenesis-Launcher-Source-0.4.2.zip'
+          if((Get-FileHash -LiteralPath $archive -Algorithm SHA256).Hash.ToLowerInvariant() -ne 'b324a1c7b02edb974aad0a2e381c31b515159f4ad74d34249087253f87f3be85'){throw 'Source hash mismatch'}
+          Expand-Archive -LiteralPath $archive -DestinationPath .build/launcher
+          & ./.build/launcher/bootstrap.ps1
+          if($LASTEXITCODE -ne 0){throw 'Bootstrap failed'}
+      - name: Test updater and signed distribution
+        run: |
+          $root=Join-Path $pwd '.build/launcher'
+          $dotnet=Join-Path $root 'tools/dotnet10/dotnet.exe'
+          $tool=Join-Path $root 'src/Arcane.Tools/bin/Release/net10.0-windows/Arcane.Tools.dll'
+          & $dotnet $tool tests (Join-Path $env:RUNNER_TEMP 'launcher-tests')
+          if($LASTEXITCODE -ne 0){throw 'Tests failed'}
+          & $dotnet $tool verify-pack 'updates/0.4.0/pack.json' "$root/release-public.pem"
+          if($LASTEXITCODE -ne 0){throw 'Pack signature invalid'}
+      - name: Build autonomous installer
+        run: |
+          & ./.build/launcher/build.ps1 -Output (Join-Path $pwd 'artifacts') -SkipChannelSigning
+          if($LASTEXITCODE -ne 0){throw 'Installer build failed'}
+      - name: Publish immutable corrected installer
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $repo=$env:GITHUB_REPOSITORY
+          gh release view launcher-0.4.2 --repo $repo *> $null
+          if($LASTEXITCODE -eq 0){throw 'Existing release must not be overwritten'}
+          gh release create launcher-0.4.2 --repo $repo --target '${{ github.sha }}' --title 'Arcane Genesis Launcher 0.4.2' --notes-file notes/launcher-0.4.2.md --draft
+          if($LASTEXITCODE -ne 0){throw 'Release creation failed'}
+          gh release upload launcher-0.4.2 artifacts/ArcaneGenesis-Setup-0.4.2.exe artifacts/ArcaneGenesis-Setup-0.4.2.exe.sha256 releases/ArcaneGenesis-Launcher-Source-0.4.2.zip artifacts/TESTING.md --repo $repo
+          if($LASTEXITCODE -ne 0){throw 'Upload failed'}
+          gh release edit launcher-0.4.2 --repo $repo --draft=false
+          if($LASTEXITCODE -ne 0){throw 'Publication failed'}
+
+
